@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/riky/.config/neofetch'
+let g:netrw_dirhist_4='/home/riky/Documents/Apa/Programmazione/GitGiuliocoa008/APAsLaboratories/Lab07/Es.2'
+let g:netrw_dirhist_3='/home/riky/Documents/Apa/Programmazione/GitGiuliocoa008/APAsLaboratories/Lab07'
+let g:netrw_dirhist_2='/home/riky/Documents/Apa/Programmazione/GitGiuliocoa008/APAsLaboratories/Lab07/Es.3'
+let g:netrw_dirhist_1='/home/riky/.config/i3/script'
+let g:netrw_dirhist_0='/home/riky/Documents/Apa/Programmazione/Esempi_codice/Projects/Simulazione_esame_2'
+let g:netrw_dirhist_9='/home/riky/Documents/Apa/Programmazione/Laboratori/Lab_0/Es_2'
+let g:netrw_dirhist_8='/home/riky/Coding/Bash/Esercizio_Base_1'
+let g:netrw_dirhist_7='/home/riky/Documents/Apa/Programmazione/Esempi_codice/Projects/Simulazione_esame_1'
+let g:netrw_dirhist_6='/home/riky/.config/i3'

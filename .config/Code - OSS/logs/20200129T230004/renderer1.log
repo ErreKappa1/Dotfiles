@@ -1,0 +1,10 @@
+[2020-01-29 23:00:08.646] [renderer1] [error] Error: Unable to read file (Error: File not found (/home/riky/Documents/Apa/Documentazione_Esame/Librerie/BST.h))
+    at Object.t.createErrorWithActions (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:58:379)
+    at w.handleSetInputError (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4837:647)
+    at w.handleSetInputError (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4840:376)
+    at w.setInput (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4837:358)
+[2020-01-29 23:00:08.867] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/riky/Documents/Apa/Documentazione_Esame/Librerie/BST.c'
+[2020-01-29 23:00:08.867] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/riky/Documents/Apa/Documentazione_Esame/Librerie/BST.c'
+[2020-01-29 23:00:09.922] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/riky/Documents/Apa/Documentazione_Esame/Librerie/Arco.c'
+[2020-01-29 23:00:09.922] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/riky/Documents/Apa/Documentazione_Esame/Librerie/Arco.c'
+[2020-01-29 23:00:16.182] [renderer1] [warning] UNRESPONSIVE extension host, 'vscodevim.vim' took 99% of 1305.21ms, saved PROFILE here: '/tmp/exthost-4450b0.cpuprofile' [{"id":"gc","total":90,"percentage":0},{"id":"self","total":6822,"percentage":1},{"id":"vscodevim.vim","total":1298119,"percentage":99}]

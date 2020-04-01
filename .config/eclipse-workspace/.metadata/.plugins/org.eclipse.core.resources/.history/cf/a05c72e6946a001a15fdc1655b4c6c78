@@ -1,0 +1,58 @@
+package mucca;
+
+public class Planet {
+
+	private String name;
+	private duble mass;
+	private duble radius;
+	private String planetaryClass = "?";
+	
+	public Planet(String name, duble mass, duble radius, String planetaryClass) {
+		super();
+		this.name = name;
+		this.mass = mass;
+		this.radius = radius;
+		this.planetaryClass = planetaryClass;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public duble getMass() {
+		return mass;
+	}
+
+	public void setMass(duble mass) {
+		this.mass = mass;
+	}
+
+	public duble getRadius() {
+		return radius;
+	}
+
+	public void setRadius(duble radius) {
+		this.radius = radius;
+	}
+
+	public String getPlanetaryClass() {
+		return planetaryClass;
+	}
+
+	public void setPlanetaryClass(String planetaryClass) {
+		this.planetaryClass = planetaryClass;
+	}
+	
+	public boolean habitableZone( ) {
+		if(planetaryClass == "M" && radius > 0.0 && mass > 0.0) {
+			return true;
+		} else {
+			return false;
+		}
+		}
+	}
+}

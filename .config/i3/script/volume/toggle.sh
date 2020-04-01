@@ -1,0 +1,2 @@
+#!/bin/zsh
+pamixer -t 

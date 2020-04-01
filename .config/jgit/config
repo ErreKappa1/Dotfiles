@@ -1,0 +1,6 @@
+[filesystem "ideapad|Oracle Corporation|1.8.0_242|/dev/sda8"]
+	timestampResolution = 3001 microseconds
+	minRacyThreshold = 0 nanoseconds
+[filesystem "Oracle Corporation|1.8.0_242|/dev/sda8"]
+	timestampResolution = 12001 microseconds
+	minRacyThreshold = 0 nanoseconds

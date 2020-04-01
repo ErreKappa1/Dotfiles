@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/home/riky/Pictures/Wallpapers/freeBlackAbsol/freeblackabsol.jpg' 

@@ -1,0 +1,8 @@
+
+public class Person {
+	String name;
+	
+	void greet() {
+		System.out.println("Hello " + name);
+	}
+}

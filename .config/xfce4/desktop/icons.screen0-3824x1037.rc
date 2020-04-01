@@ -1,0 +1,11 @@
+[xfdesktop-version-4.10.3+-rcfile_format]
+4.10.3+=true
+
+[/home/riky/Desktop/layout_us.sh]
+row=5
+col=0
+
+[/home/riky/Desktop/layout_it.sh]
+row=6
+col=0
+

@@ -1,0 +1,281 @@
+[info   ] [FileManager]: Data files will be fetched from: '/usr/share/supertuxkart/data/'
+[info   ] [FileManager]: User directory is '/home/riky/.config/supertuxkart/config-0.10/'.
+[info   ] [FileManager]: Addons files will be stored in '/home/riky/.local/share/supertuxkart/addons/'.
+[info   ] [FileManager]: Screenshots will be stored in '/home/riky/.local/share/supertuxkart/screenshots/'.
+[info   ] [FileManager]: User-defined grand prix will be stored in '/home/riky/.local/share/supertuxkart/grandprix/'.
+[info   ] [FileManager]: Asset 0 will be loaded from '/usr/share/supertuxkart/data/challenges/'.
+[info   ] [FileManager]: Asset 1 will be loaded from '/usr/share/supertuxkart/data/gfx/'.
+[info   ] [FileManager]: Asset 2 will be loaded from '/usr/share/supertuxkart/data/grandprix/'.
+[info   ] [FileManager]: Asset 3 will be loaded from '/usr/share/supertuxkart/data/gui/icons/'.
+[info   ] [FileManager]: Asset 4 will be loaded from '/usr/share/supertuxkart/data/gui/screens/'.
+[info   ] [FileManager]: Asset 5 will be loaded from '/usr/share/supertuxkart/data/gui/dialogs/'.
+[info   ] [FileManager]: Asset 6 will be loaded from '/usr/share/supertuxkart/data/library/'.
+[info   ] [FileManager]: Asset 7 will be loaded from '/usr/share/supertuxkart/data/models/'.
+[info   ] [FileManager]: Asset 8 will be loaded from '/usr/share/supertuxkart/data/music/'.
+[info   ] [FileManager]: Asset 9 will be loaded from '/usr/share/supertuxkart/data/replay/'.
+[info   ] [FileManager]: Asset 10 will be loaded from '/usr/share/supertuxkart/data/tracks/'.
+[info   ] [FileManager]: Asset 11 will be loaded from '/usr/share/supertuxkart/data/sfx/'.
+[info   ] [FileManager]: Asset 12 will be loaded from '/usr/share/supertuxkart/data/shaders/'.
+[info   ] [FileManager]: Asset 13 will be loaded from '/usr/share/supertuxkart/data/skins/'.
+[info   ] [FileManager]: Asset 14 will be loaded from '/usr/share/supertuxkart/data/textures/'.
+[info   ] [FileManager]: Asset 15 will be loaded from '/usr/share/supertuxkart/data/ttf/'.
+[info   ] [FileManager]: Asset 16 will be loaded from '/usr/share/supertuxkart/data/po/'.
+[verbose  ] translation: Env var LANGUAGE = 'en_US.UTF-8'.
+[verbose  ] translation: Language 'English (United States)'.
+[info   ] tinygettext: Adding language fallback en
+
+[warn   ] irr_driver: Using the fixed pipeline (old GPU, or shaders disabled in options)
+[info   ] GrandPrixManager: Loading Grand Prix files from /usr/share/supertuxkart/data/grandprix/
+[info   ] GrandPrixManager: Loading Grand Prix files from /home/riky/.local/share/supertuxkart/grandprix/
+Wed May  8 01:45:21 2019 [info   ] STKHost: Host initialized.
+Wed May  8 01:45:21 2019 [info   ] STKHost: Server port is 2759
+Wed May  8 01:45:21 2019 [info   ] main: Creating a WAN server 'NaziCow's&#x20;serer'.
+Wed May  8 01:45:21 2019 [info   ] ServerLobby: Reset server to initial state.
+Wed May  8 01:45:21 2019 [info   ] ProtocolManager: A 11ServerLobby protocol has been started.
+Wed May  8 01:45:21 2019 [info   ] STKHost: Listening has been started.
+Wed May  8 01:45:21 2019 [info   ] ServerLobby: Public server address 2.35.69.84:2759
+Wed May  8 01:45:21 2019 [info   ] HTTPRequest: Sending userid=150449&token=************************&address=35865940&port=2759&private_port=2759&name=NaziCow%27s%20serer&max_players=8&difficulty=1&game_mode=3&password=*&version=6 to https://online.supertuxkart.net/api/v2/server/create/
+Wed May  8 01:45:21 2019 [info   ] ServerLobby: Server 35842 is now online.
+Wed May  8 01:45:22 2019 [info   ] STKHost: 127.0.0.1:59063 has just connected. There are now 1 peers.
+Wed May  8 01:45:22 2019 [info   ] ServerLobby: Message received with type 1.
+Wed May  8 01:45:27 2019 [info   ] ServerLobby: ErreKappa1 validated
+Wed May  8 01:45:27 2019 [info   ] ServerLobby: New player ErreKappa1 with online id 150449 from 127.0.0.1:59063 with SuperTuxKart/1.0 (Linux).
+Wed May  8 01:45:27 2019 [info   ] ProtocolManager: A 13ConnectToPeer protocol has been started.
+Wed May  8 01:45:49 2019 [warn   ] ConnectToPeer: Time out trying to connect to 2.35.69.84:41570
+Wed May  8 01:45:49 2019 [info   ] ProtocolManager: A 13ConnectToPeer protocol has been terminated.
+Wed May  8 01:45:57 2019 [info   ] ProtocolManager: A 13ConnectToPeer protocol has been started.
+Wed May  8 01:46:07 2019 [info   ] ProtocolManager: A 13ConnectToPeer protocol has been started.
+Wed May  8 01:46:15 2019 [info   ] STKHost: 83.39.6.229:40742 has just connected. There are now 2 peers.
+Wed May  8 01:46:15 2019 [info   ] ConnectToPeer: Peer 83.39.6.229:40742 has established a connection.
+Wed May  8 01:46:15 2019 [info   ] ProtocolManager: A 13ConnectToPeer protocol has been terminated.
+Wed May  8 01:46:15 2019 [info   ] ServerLobby: Message received with type 1.
+Wed May  8 01:46:15 2019 [info   ] ServerLobby: garro validated
+Wed May  8 01:46:15 2019 [info   ] ServerLobby: New player garro with online id 150295 from 83.39.6.229:40742 with SuperTuxKart/1.0 (Linux).
+Wed May  8 01:46:19 2019 [warn   ] ConnectToPeer: Time out trying to connect to 93.36.160.118:41445
+Wed May  8 01:46:19 2019 [info   ] ProtocolManager: A 13ConnectToPeer protocol has been terminated.
+Wed May  8 01:46:20 2019 [info   ] STKHost: 83.39.6.229:40742 garro with ping 310 is higher than 300 ms.
+Wed May  8 01:46:32 2019 [info   ] ServerLobby: Message received with type 17.
+Wed May  8 01:46:32 2019 [info   ] ServerLobby: Message received with type 17.
+Wed May  8 01:46:32 2019 [error  ] XMLRequest::afterOperation: curl_easy_perform() failed: Couldn't resolve host name
+Wed May  8 01:46:32 2019 [error  ] ServerLobby: Poll server request failed: Unable to connect to the server. Check your internet connection or try again later.
+Wed May  8 01:46:33 2019 [error  ] ServerLobby: Poll server request failed: Server id is not found.
+Wed May  8 01:46:33 2019 [error  ] ServerLobby: Poll server request failed: Server id is not found.
+Wed May  8 01:46:33 2019 [error  ] ServerLobby: Poll server request failed: Server id is not found.
+Wed May  8 01:46:37 2019 [error  ] ServerLobby: Poll server request failed: Server id is not found.
+Wed May  8 01:46:42 2019 [error  ] ServerLobby: Poll server request failed: Server id is not found.
+Wed May  8 01:46:42 2019 [warn   ] ServerLobby: Trying auto server recovery.
+Wed May  8 01:46:42 2019 [info   ] ServerLobby: Public server address 2.35.69.84:2759
+Wed May  8 01:46:42 2019 [info   ] HTTPRequest: Sending userid=150449&token=************************&address=35865940&port=2759&private_port=2759&name=NaziCow%27s%20serer&max_players=8&difficulty=1&game_mode=3&password=*&version=6 to https://online.supertuxkart.net/api/v2/server/create/
+Wed May  8 01:46:42 2019 [info   ] ServerLobby: Server 35844 is now online.
+Wed May  8 01:48:49 2019 [info   ] ServerLobby: Message received with type 17.
+Wed May  8 01:49:22 2019 [info   ] ServerLobby: Message received with type 5.
+Wed May  8 01:49:26 2019 [info   ] ServerLobby: Message received with type 7.
+Wed May  8 01:49:28 2019 [info   ] ServerLobby: Message received with type 16.
+Wed May  8 01:49:43 2019 [info   ] ServerLobby: Message received with type 7.
+Wed May  8 01:49:50 2019 [info   ] ServerLobby: Message received with type 16.
+Wed May  8 01:49:52 2019 [info   ] LobbyProtocol: Player configuration ready.
+Wed May  8 01:49:52 2019 [info   ] ServerLobbyRoom: Starting the race loading.
+Wed May  8 01:49:52 2019 [info   ] LobbyProtocol: Ready !
+Wed May  8 01:49:52 2019 [verbose  ] RaceManager: Nb of karts=2, ghost karts:0 ai:0 players:2
+
+Wed May  8 01:49:54 2019 [info   ] Track: Overall scene complexity estimated at 352
+Wed May  8 01:49:54 2019 [info   ] NetworkPlayerController: New network player controller.
+Wed May  8 01:49:54 2019 [info   ] NetworkPlayerController: New network player controller.
+Wed May  8 01:49:54 2019 [info   ] ProtocolManager: A 12GameProtocol protocol has been started.
+Wed May  8 01:49:54 2019 [info   ] ProtocolManager: A 18GameEventsProtocol protocol has been started.
+Wed May  8 01:49:58 2019 [info   ] ServerLobby: Message received with type 9.
+Wed May  8 01:49:58 2019 [info   ] ServerLobby: Peer 0 has finished loading world at 2494837.124000
+Wed May  8 01:49:58 2019 [info   ] ServerLobby: Message received with type 9.
+Wed May  8 01:49:58 2019 [info   ] ServerLobby: Peer 1 has finished loading world at 2494837.563000
+Wed May  8 01:49:58 2019 [info   ] ServerLobby: Max ping from peers: 87, jitter tolerance: 100
+Wed May  8 01:49:58 2019 [info   ] ServerLobby: Start game after 2643ms
+Wed May  8 01:50:01 2019 [info   ] ServerLobby: Started at 2494840.206000
+Wed May  8 01:50:08 2019 [warn   ] RewindQueue: Server received at 579 message from 578
+Wed May  8 01:50:18 2019 [warn   ] RewindQueue: Server received at 1806 message from 1805
+Wed May  8 01:50:20 2019 [warn   ] RewindQueue: Server received at 2036 message from 2032
+Wed May  8 01:51:01 2019 [warn   ] RewindQueue: Server received at 6939 message from 6938
+Wed May  8 01:51:06 2019 [warn   ] RewindQueue: Server received at 7596 message from 7595
+Wed May  8 01:52:01 2019 [warn   ] RewindQueue: Server received at 14183 message from 14177
+Wed May  8 01:52:20 2019 [warn   ] RewindQueue: Server received at 16438 message from 16437
+Wed May  8 01:53:17 2019 [warn   ] RewindQueue: Server received at 23268 message from 23249
+Wed May  8 01:53:43 2019 [warn   ] RewindQueue: Server received at 26399 message from 26321
+Wed May  8 01:53:43 2019 [warn   ] RewindQueue: Server received at 26399 message from 26342
+Wed May  8 01:53:43 2019 [warn   ] RewindQueue: Server received at 26428 message from 26426
+Wed May  8 01:54:05 2019 [warn   ] RewindQueue: Server received at 29071 message from 29069
+Wed May  8 01:54:20 2019 [warn   ] RewindQueue: Server received at 30822 message from 30816
+Wed May  8 01:54:30 2019 [warn   ] RewindQueue: Server received at 32005 message from 32003
+Wed May  8 01:55:45 2019 [warn   ] RewindQueue: Server received at 41031 message from 40992
+Wed May  8 01:55:50 2019 [warn   ] RewindQueue: Server received at 41618 message from 41616
+Wed May  8 01:56:09 2019 [warn   ] RewindQueue: Server received at 43948 message from 43946
+Wed May  8 01:56:11 2019 [warn   ] RewindQueue: Server received at 44189 message from 44149
+Wed May  8 01:56:11 2019 [warn   ] RewindQueue: Server received at 44189 message from 44187
+Wed May  8 01:56:16 2019 [warn   ] RewindQueue: Server received at 44715 message from 44705
+Wed May  8 01:56:16 2019 [warn   ] RewindQueue: Server received at 44800 message from 44752
+Wed May  8 01:56:16 2019 [warn   ] RewindQueue: Server received at 44800 message from 44762
+Wed May  8 01:56:49 2019 [warn   ] RewindQueue: Server received at 48715 message from 48695
+Wed May  8 01:56:49 2019 [warn   ] RewindQueue: Server received at 48715 message from 48695
+Wed May  8 01:56:49 2019 [warn   ] RewindQueue: Server received at 48715 message from 48695
+Wed May  8 01:57:32 2019 [warn   ] RewindQueue: Server received at 53907 message from 53902
+Wed May  8 01:58:37 2019 [warn   ] RewindQueue: Server received at 61707 message from 61706
+Wed May  8 01:58:40 2019 [warn   ] RewindQueue: Server received at 62095 message from 62069
+Wed May  8 01:58:50 2019 [warn   ] RewindQueue: Server received at 63245 message from 63215
+Wed May  8 01:58:51 2019 [info   ] ServerLobby: The game is considered finish.
+Wed May  8 01:58:51 2019 [info   ] ProtocolManager: A 18GameEventsProtocol protocol has been terminated.
+Wed May  8 01:58:51 2019 [info   ] ProtocolManager: A 12GameProtocol protocol has been terminated.
+Wed May  8 01:58:51 2019 [info   ] Singleton: Destroyed singleton.
+Wed May  8 01:58:51 2019 [info   ] Singleton: Destroyed singleton.
+Wed May  8 01:58:51 2019 [info   ] Singleton: Destroyed singleton.
+Wed May  8 01:58:51 2019 [info   ] ServerLobby: End of game message sent
+Wed May  8 01:58:58 2019 [info   ] ServerLobby: Synchronous message received with type 14.
+Wed May  8 01:59:03 2019 [info   ] ServerLobby: Synchronous message received with type 14.
+Wed May  8 01:59:06 2019 [info   ] ServerLobby: Reset server to initial state.
+Wed May  8 01:59:09 2019 [info   ] ServerLobby: Message received with type 17.
+Wed May  8 01:59:25 2019 [info   ] ServerLobby: Message received with type 17.
+Wed May  8 02:00:12 2019 [info   ] ProtocolManager: A 13ConnectToPeer protocol has been started.
+Wed May  8 02:00:19 2019 [info   ] STKHost: 93.50.197.9:57630 has just connected. There are now 3 peers.
+Wed May  8 02:00:19 2019 [info   ] ServerLobby: Message received with type 1.
+Wed May  8 02:00:19 2019 [info   ] ConnectToPeer: Peer 93.50.197.9:57630 has established a connection.
+Wed May  8 02:00:19 2019 [info   ] ServerLobby: Hyd3L validated
+Wed May  8 02:00:19 2019 [info   ] ServerLobby: New player Hyd3L with online id 148393 from 93.50.197.9:57630 with SuperTuxKart/1.0 (Linux).
+Wed May  8 02:00:19 2019 [info   ] ProtocolManager: A 13ConnectToPeer protocol has been terminated.
+Wed May  8 02:00:34 2019 [info   ] ServerLobby: Message received with type 17.
+Wed May  8 02:00:58 2019 [info   ] ServerLobby: Message received with type 23.
+Wed May  8 02:01:08 2019 [info   ] ServerLobby: Message received with type 5.
+Wed May  8 02:01:10 2019 [info   ] ServerLobby: Message received with type 7.
+Wed May  8 02:01:15 2019 [info   ] ServerLobby: Message received with type 16.
+Wed May  8 02:01:15 2019 [info   ] ServerLobby: Message received with type 7.
+Wed May  8 02:01:20 2019 [info   ] ServerLobby: Message received with type 16.
+Wed May  8 02:01:23 2019 [info   ] ServerLobby: Message received with type 16.
+Wed May  8 02:01:27 2019 [info   ] ServerLobby: Message received with type 7.
+Wed May  8 02:01:30 2019 [info   ] ServerLobby: Message received with type 16.
+Wed May  8 02:01:36 2019 [info   ] ServerLobby: Message received with type 16.
+Wed May  8 02:01:37 2019 [info   ] ServerLobby: Message received with type 16.
+Wed May  8 02:01:38 2019 [info   ] ServerLobby: Message received with type 16.
+Wed May  8 02:01:38 2019 [info   ] LobbyProtocol: Player configuration ready.
+Wed May  8 02:01:38 2019 [info   ] ServerLobbyRoom: Starting the race loading.
+Wed May  8 02:01:38 2019 [info   ] LobbyProtocol: Ready !
+Wed May  8 02:01:38 2019 [verbose  ] RaceManager: Nb of karts=3, ghost karts:0 ai:0 players:3
+
+Wed May  8 02:01:41 2019 [info   ] Track: Overall scene complexity estimated at 2476
+Wed May  8 02:01:42 2019 [info   ] NetworkPlayerController: New network player controller.
+Wed May  8 02:01:42 2019 [info   ] NetworkPlayerController: New network player controller.
+Wed May  8 02:01:42 2019 [info   ] NetworkPlayerController: New network player controller.
+Wed May  8 02:01:42 2019 [info   ] ProtocolManager: A 12GameProtocol protocol has been started.
+Wed May  8 02:01:42 2019 [info   ] ProtocolManager: A 18GameEventsProtocol protocol has been started.
+Wed May  8 02:01:42 2019 [info   ] ServerLobby: Message received with type 9.
+Wed May  8 02:01:42 2019 [info   ] ServerLobby: Peer 2 has finished loading world at 2495541.774000
+Wed May  8 02:01:46 2019 [info   ] ServerLobby: Message received with type 9.
+Wed May  8 02:01:46 2019 [info   ] ServerLobby: Peer 0 has finished loading world at 2495545.187000
+Wed May  8 02:01:47 2019 [info   ] ServerLobby: Message received with type 9.
+Wed May  8 02:01:47 2019 [info   ] ServerLobby: Peer 1 has finished loading world at 2495546.711000
+Wed May  8 02:01:47 2019 [info   ] ServerLobby: Max ping from peers: 95, jitter tolerance: 100
+Wed May  8 02:01:47 2019 [info   ] ServerLobby: Start game after 2647ms
+Wed May  8 02:01:50 2019 [info   ] ServerLobby: Started at 2495549.358000
+Wed May  8 02:02:30 2019 [warn   ] RewindQueue: Server received at 4502 message from 4474
+Wed May  8 02:02:50 2019 [warn   ] RewindQueue: Server received at 6944 message from 6932
+Wed May  8 02:02:53 2019 [warn   ] RewindQueue: Server received at 7320 message from 7315
+Wed May  8 02:02:54 2019 [warn   ] RewindQueue: Server received at 7400 message from 7373
+Wed May  8 02:02:54 2019 [warn   ] RewindQueue: Server received at 7401 message from 7397
+Wed May  8 02:03:03 2019 [warn   ] RewindQueue: Server received at 8570 message from 8566
+Wed May  8 02:03:10 2019 [info   ] ServerLobby: Synchronous message received with type 28.
+Wed May  8 02:03:10 2019 [info   ] ServerLobby: 127.0.0.1:59063 left the game with kart id 2.
+Wed May  8 02:03:19 2019 [warn   ] RewindQueue: Server received at 10401 message from 10390
+Wed May  8 02:03:22 2019 [warn   ] RewindQueue: Server received at 10761 message from 10755
+Wed May  8 02:03:42 2019 [info   ] ServerLobby: Message received with type 17.
+Wed May  8 02:03:51 2019 [warn   ] RewindQueue: Server received at 14245 message from 14232
+Wed May  8 02:03:51 2019 [warn   ] RewindQueue: Server received at 14263 message from 14256
+Wed May  8 02:03:52 2019 [warn   ] RewindQueue: Server received at 14372 message from 14361
+Wed May  8 02:03:52 2019 [warn   ] RewindQueue: Server received at 14393 message from 14374
+Wed May  8 02:03:54 2019 [warn   ] RewindQueue: Server received at 14685 message from 14684
+Wed May  8 02:03:56 2019 [warn   ] RewindQueue: Server received at 14860 message from 14843
+Wed May  8 02:04:00 2019 [warn   ] RewindQueue: Server received at 15379 message from 15368
+Wed May  8 02:04:20 2019 [warn   ] RewindQueue: Server received at 17753 message from 17720
+Wed May  8 02:04:50 2019 [warn   ] RewindQueue: Server received at 21346 message from 21337
+Wed May  8 02:05:17 2019 [info   ] ServerLobby: Synchronous message received with type 28.
+Wed May  8 02:05:17 2019 [info   ] ServerLobby: 93.50.197.9:57630 left the game with kart id 1.
+Wed May  8 02:05:22 2019 [info   ] ServerLobby: Message received with type 17.
+Wed May  8 02:05:29 2019 [info   ] ServerLobby: Message received with type 17.
+Wed May  8 02:05:41 2019 [info   ] ServerLobby: The game is considered finish.
+Wed May  8 02:05:41 2019 [info   ] ProtocolManager: A 18GameEventsProtocol protocol has been terminated.
+Wed May  8 02:05:41 2019 [info   ] ProtocolManager: A 12GameProtocol protocol has been terminated.
+Wed May  8 02:05:41 2019 [info   ] Singleton: Destroyed singleton.
+Wed May  8 02:05:41 2019 [info   ] Singleton: Destroyed singleton.
+Wed May  8 02:05:41 2019 [info   ] Singleton: Destroyed singleton.
+Wed May  8 02:05:41 2019 [info   ] ServerLobby: End of game message sent
+Wed May  8 02:05:42 2019 [info   ] ServerLobby: Message received with type 17.
+Wed May  8 02:05:47 2019 [info   ] ServerLobby: Synchronous message received with type 14.
+Wed May  8 02:05:47 2019 [info   ] ServerLobby: New player ErreKappa1 with online id 150449 from 127.0.0.1:59063 with SuperTuxKart/1.0 (Linux).
+Wed May  8 02:05:47 2019 [info   ] ServerLobby: New player Hyd3L with online id 148393 from 93.50.197.9:57630 with SuperTuxKart/1.0 (Linux).
+Wed May  8 02:05:47 2019 [info   ] ServerLobby: Reset server to initial state.
+Wed May  8 02:06:04 2019 [info   ] ServerLobby: Message received with type 17.
+Wed May  8 02:06:09 2019 [info   ] ServerLobby: Message received with type 5.
+Wed May  8 02:06:11 2019 [info   ] ServerLobby: Message received with type 7.
+Wed May  8 02:06:13 2019 [info   ] ServerLobby: Message received with type 16.
+Wed May  8 02:06:13 2019 [info   ] ServerLobby: Message received with type 7.
+Wed May  8 02:06:18 2019 [info   ] ServerLobby: Message received with type 16.
+Wed May  8 02:06:19 2019 [info   ] ServerLobby: Message received with type 16.
+Wed May  8 02:06:19 2019 [info   ] ServerLobby: Message received with type 7.
+Wed May  8 02:06:25 2019 [info   ] ServerLobby: Message received with type 16.
+Wed May  8 02:06:25 2019 [info   ] ServerLobby: Message received with type 16.
+Wed May  8 02:06:26 2019 [info   ] ServerLobby: Message received with type 16.
+Wed May  8 02:06:26 2019 [info   ] ServerLobby: Message received with type 16.
+Wed May  8 02:06:39 2019 [info   ] LobbyProtocol: Player configuration ready.
+Wed May  8 02:06:39 2019 [info   ] ServerLobbyRoom: Starting the race loading.
+Wed May  8 02:06:39 2019 [info   ] LobbyProtocol: Ready !
+Wed May  8 02:06:39 2019 [verbose  ] RaceManager: Nb of karts=3, ghost karts:0 ai:0 players:3
+
+Wed May  8 02:06:40 2019 [warn   ] material: Track uses deprecated texture 'logs.png'
+Wed May  8 02:06:40 2019 [info   ] Track: Overall scene complexity estimated at 32
+Wed May  8 02:06:40 2019 [info   ] NetworkPlayerController: New network player controller.
+Wed May  8 02:06:40 2019 [info   ] NetworkPlayerController: New network player controller.
+Wed May  8 02:06:40 2019 [info   ] NetworkPlayerController: New network player controller.
+Wed May  8 02:06:40 2019 [info   ] ProtocolManager: A 12GameProtocol protocol has been started.
+Wed May  8 02:06:40 2019 [info   ] ProtocolManager: A 18GameEventsProtocol protocol has been started.
+Wed May  8 02:06:42 2019 [info   ] ServerLobby: Message received with type 9.
+Wed May  8 02:06:42 2019 [info   ] ServerLobby: Peer 2 has finished loading world at 2495841.851000
+Wed May  8 02:06:44 2019 [info   ] ServerLobby: Message received with type 9.
+Wed May  8 02:06:44 2019 [info   ] ServerLobby: Peer 1 has finished loading world at 2495843.214000
+Wed May  8 02:06:44 2019 [info   ] ServerLobby: Message received with type 9.
+Wed May  8 02:06:44 2019 [info   ] ServerLobby: Peer 0 has finished loading world at 2495843.582000
+Wed May  8 02:06:44 2019 [info   ] ServerLobby: Max ping from peers: 89, jitter tolerance: 100
+Wed May  8 02:06:44 2019 [info   ] ServerLobby: Start game after 2644ms
+Wed May  8 02:06:47 2019 [info   ] ServerLobby: Started at 2495846.226000
+Wed May  8 02:07:20 2019 [warn   ] RewindQueue: Server received at 3730 message from 3726
+Wed May  8 02:07:29 2019 [warn   ] RewindQueue: Server received at 4838 message from 4836
+Wed May  8 02:07:50 2019 [warn   ] RewindQueue: Server received at 7334 message from 7292
+Wed May  8 02:07:50 2019 [warn   ] RewindQueue: Server received at 7334 message from 7315
+Wed May  8 02:07:50 2019 [warn   ] RewindQueue: Server received at 7387 message from 7386
+Wed May  8 02:08:20 2019 [warn   ] RewindQueue: Server received at 10927 message from 10923
+Wed May  8 02:08:26 2019 [warn   ] RewindQueue: Server received at 11709 message from 11706
+Wed May  8 02:08:50 2019 [warn   ] RewindQueue: Server received at 14532 message from 14521
+Wed May  8 02:09:05 2019 [info   ] ServerLobby: Message received with type 17.
+Wed May  8 02:09:14 2019 [info   ] ServerLobby: Message received with type 17.
+Wed May  8 02:09:22 2019 [info   ] ServerLobby: Message received with type 17.
+Wed May  8 02:09:29 2019 [info   ] ServerLobby: Message received with type 17.
+Wed May  8 02:09:36 2019 [info   ] ServerLobby: The game is considered finish.
+Wed May  8 02:09:36 2019 [info   ] ProtocolManager: A 18GameEventsProtocol protocol has been terminated.
+Wed May  8 02:09:36 2019 [info   ] ProtocolManager: A 12GameProtocol protocol has been terminated.
+Wed May  8 02:09:36 2019 [info   ] Singleton: Destroyed singleton.
+Wed May  8 02:09:36 2019 [info   ] Singleton: Destroyed singleton.
+Wed May  8 02:09:36 2019 [info   ] Singleton: Destroyed singleton.
+Wed May  8 02:09:36 2019 [info   ] ServerLobby: End of game message sent
+Wed May  8 02:09:41 2019 [info   ] ServerLobby: Synchronous message received with type 14.
+Wed May  8 02:09:42 2019 [info   ] ServerLobby: Synchronous message received with type 14.
+Wed May  8 02:09:48 2019 [info   ] ServerLobby: Synchronous message received with type 14.
+Wed May  8 02:09:48 2019 [info   ] ServerLobby: Reset server to initial state.
+Wed May  8 02:09:55 2019 [info   ] ServerLobby: Message received with type 17.
+Wed May  8 02:10:03 2019 [info   ] ServerLobby: Message received with type 17.
+Wed May  8 02:10:09 2019 [info   ] ServerLobby: Message received with type 17.
+Wed May  8 02:10:16 2019 [info   ] ServerLobby: Message received with type 17.
+Wed May  8 02:10:20 2019 [info   ] ServerLobby: Message received with type 17.
+Wed May  8 02:10:23 2019 [info   ] ServerLobby: Message received with type 17.
+Wed May  8 02:10:24 2019 [info   ] STKHost: 93.50.197.9:57630 has just disconnected. There are now 2 peers.
+Wed May  8 02:10:24 2019 [info   ] ServerLobby: Hyd3L disconnected
+Wed May  8 02:10:30 2019 [info   ] ServerLobby: Message received with type 17.
+Wed May  8 02:10:30 2019 [info   ] ServerLobby: Message received with type 17.
+Wed May  8 02:10:33 2019 [info   ] STKHost: 127.0.0.1:59063 has just disconnected. There are now 1 peers.
+Wed May  8 02:10:33 2019 [info   ] ServerLobby: ErreKappa1 disconnected
+Wed May  8 02:10:33 2019 [info   ] ServerLobby: Unregister server address 2.35.69.84:2759
+Wed May  8 02:10:33 2019 [info   ] HTTPRequest: Sending userid=150449&token=************************&address=35865940&port=2759 to https://online.supertuxkart.net/api/v2/server/stop/
+Wed May  8 02:10:34 2019 [info   ] STKHost: Listening has been stopped.
+[info   ] Singleton: Destroyed singleton.

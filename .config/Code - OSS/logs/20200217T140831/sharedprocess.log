@@ -1,0 +1,8 @@
+[2020-02-17 14:08:35.956] [sharedprocess] [info] main {"machineId":"13d25e0314c6e7ba265aedea78fa00088f93d8420af45db15a9b3404798e0698","windowId":2}
+[2020-02-17 14:09:15.967] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-02-17 17:03:34.683] [sharedprocess] [info] Installing extension: alexcvzz.vscode-sqlite
+[2020-02-17 17:04:14.233] [sharedprocess] [info] Downloaded extension: alexcvzz.vscode-sqlite /tmp/24aeda58-72ff-452f-a52f-0ae5e49c2fc1
+[2020-02-17 17:05:57.264] [sharedprocess] [info] Extracted extension to /home/riky/.vscode-oss/extensions/.alexcvzz.vscode-sqlite-0.8.1: alexcvzz.vscode-sqlite
+[2020-02-17 17:05:57.265] [sharedprocess] [info] Renamed to /home/riky/.vscode-oss/extensions/alexcvzz.vscode-sqlite-0.8.1
+[2020-02-17 17:05:57.265] [sharedprocess] [info] Installation completed. alexcvzz.vscode-sqlite
+[2020-02-17 17:05:57.365] [sharedprocess] [info] Extensions installed successfully: alexcvzz.vscode-sqlite

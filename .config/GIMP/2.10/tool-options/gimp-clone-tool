@@ -1,0 +1,10 @@
+# GIMP gimp-clone-tool options
+
+(brush "Smoke")
+(dynamics "Dynamics Off")
+(pattern "Pine")
+(palette "Color History")
+(brush-size 168)
+(brush-spacing 0.5)
+
+# end of gimp-clone-tool options
