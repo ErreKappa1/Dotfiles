@@ -96,10 +96,6 @@ fi
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
-## Boot
-# clear
-# neofetch
-
 ## Personal aliases
 alias help='bash -c help'
 alias la='ls -A'
@@ -108,6 +104,9 @@ alias term='xfce4-terminal &> /dev/null'
 alias please='sudo'
 alias vlc='cvlc'
 alias figa='echo Che schifo la figa. Meglio GNU/Linux'
+alias backup='~/Coding/Bash/randomScript/backUp/backUpToHDD.sh'
+alias megapush='~/Coding/Bash/randomScript/gitPush.sh'
+alias megapull='~/Coding/Bash/randomScript/gitPull.sh'
 
 ## System
 alias lightup='backlight_control +10.4'

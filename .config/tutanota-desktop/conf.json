@@ -7,8 +7,8 @@
   "lastBounds": {
     "fullscreen": false,
     "rect": {
-      "x": 6,
-      "y": 58,
+      "x": 10,
+      "y": 62,
       "width": 954,
       "height": 1016
     },
@@ -24,9 +24,9 @@
   "pushEncSessionKeys": {
     "M3FwgSU--7-2": "DuVXYDEp36EA1Xd9j/Qr59voSpWzZaPy6vx/kzLe+5c="
   },
-  "lastMissedNotificationCheckTime": 1585153805852,
+  "lastMissedNotificationCheckTime": 1588065369435,
   "isMailtoHandler": false,
   "runOnStartup": false,
   "isIntegrated": true,
-  "lastProcessedNotificationId": "M3HWskA----2"
+  "lastProcessedNotificationId": "M6-3bm9--7-2"
 }

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=ScrCpy
+Comment=An android mirroring program
+Exec=scrcpy
+Icon=transmission
+Path=
+Terminal=false
+StartupNotify=false

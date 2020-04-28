@@ -1,8 +1,3 @@
-[error  ] User Config: Unknown value for karts-powerup-gui; expected true or false
-[error  ] User Config: Unknown value for show_story_mode_timer; expected true or false
-[error  ] User Config: Unknown value for show_speedrun_timer; expected true or false
-[error  ] User Config: Couldn't find parameter group stun-servers-ipv6
-[error  ] User Config: Unknown value for race-chat; expected true or false
 [info   ] [FileManager]: Data files will be fetched from: '/usr/share/supertuxkart/data/'
 [info   ] [FileManager]: User directory is '/home/riky/.config/supertuxkart/config-0.10/'.
 [info   ] [FileManager]: Addons files will be stored in '/home/riky/.local/share/supertuxkart/addons/'.
@@ -30,9 +25,9 @@
 [info   ] tinygettext: Adding language fallback en
 
 [info   ] IrrDriver: OpenGL version: 4.6
-[info   ] IrrDriver: OpenGL vendor: Intel Open Source Technology Center
-[info   ] IrrDriver: OpenGL renderer: Mesa DRI Intel(R) HD Graphics 620 (Kaby Lake GT2) 
-[info   ] IrrDriver: OpenGL version string: 4.6 (Core Profile) Mesa 19.3.4
+[info   ] IrrDriver: OpenGL vendor: Intel
+[info   ] IrrDriver: OpenGL renderer: Mesa Intel(R) HD Graphics 620 (KBL GT2)
+[info   ] IrrDriver: OpenGL version string: 4.6 (Core Profile) Mesa 20.0.2
 [info   ] GLDriver: ARB Buffer Storage Present
 [info   ] GLDriver: ARB Compute Shader Present
 [info   ] GLDriver: ARB Arrays of Arrays Present
@@ -94,37 +89,21 @@
 [info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/xml/online_news.xml
 [info   ] addons: Downloading updated addons.xml.
 [info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/xml/online_assets.xml
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/3529879735d85b59209b4e.jpg
 [info   ] GrandPrixManager: Loading Grand Prix files from /usr/share/supertuxkart/data/grandprix/
 [info   ] GrandPrixManager: Loading Grand Prix files from /home/riky/.local/share/supertuxkart/grandprix/
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/21052198975dbd4a9cd2c8c.png
 [warn   ] SPMeshBuffer: kartDirt shader is missing, fallback to solid
 [warn   ] SPMeshBuffer: kartDirt shader is missing, fallback to solid
 [warn   ] SPMeshBuffer: kartDirt shader is missing, fallback to solid
 [warn   ] SPMeshBuffer: kartDirt shader is missing, fallback to solid
 [warn   ] SPMeshBuffer: kartDirt shader is missing, fallback to solid
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/11725869675df34e682e565.png
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/13345281345e047b0f16ba3.jpg
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/21346625265e37256a6a8be.jpg
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/16039804275e2f41b8b89c1.png
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/3313501295e0fcb877b556.jpg
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/5406628585e5e1b7f560b9.jpg
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/7865854385e1087751fdbe.png
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/5826470475e63c42d87e98.png
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/6087169855e05d94f343aa.png
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/11673036135e0e5b5172d99.jpg
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/11751786605e398f0645a4c.jpg
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/16439735485e5fb83a8c113.png
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/12888561325e1525f60b900.png
-[info   ] HTTPRequest: Sending username=ErreKappa1&password=*******************&save-session=true to https://online.supertuxkart.net/api/v2/user/connect/
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/14606253165df5efde9439c.png
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/20117915235e2308c72707b.png
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/9388630265e135f46ae768.jpg
-[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/9231888385df01add22656.png
-[info   ] HTTPRequest: Sending username=ErreKappa1&password=**************&save-session=true to https://online.supertuxkart.net/api/v2/user/connect/
-[info   ] HTTPRequest: Sending username=ErreKappa1&password=***********&save-session=true to https://online.supertuxkart.net/api/v2/user/connect/
-[info   ] HTTPRequest: Sending userid=150449&token=************************&visitingid=150449 to https://online.supertuxkart.net/api/v2/user/get-friends-list/
-[info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/9856638705e859be066366.jpg
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/7985991215e7926aa80654.png
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/13470688385e81e09e00b42.jpg
+[info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/saved-session/
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/3848962895e65760e4f823.jpg
+[info   ] Achievements: Synching achievement 2,4,5,7 to server.
+[info   ] HTTPRequest: Sending userid=150449&token=************************&achievementid=2%2C4%2C5%2C7 to https://online.supertuxkart.net/api/v2/user/achieving/
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/15171706435e8102ffb678a.png
 [verbose  ] RaceManager: Nb of karts=1, ghost karts:0 ai:0 players:1
 
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/tracks/overworld/splatting.frag
@@ -146,11 +125,12 @@
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/mlaa_color1.frag
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/mlaa_blend2.frag
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/mlaa_neigh3.frag
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/5109599075e864d38bfe19.png
 [info   ] Track: Overall scene complexity estimated at 106
-[info   ] Script: allchallenges: unlocked_challenges=6, challenges=26
-[info   ] Script: allchallenges: unlocked_challenges=6, challenges=26
-[info   ] Script: allchallenges: unlocked_challenges=6, challenges=26
-[info   ] Script: allchallenges: unlocked_challenges=6, challenges=26
+[info   ] Script: allchallenges: unlocked_challenges=7, challenges=26
+[info   ] Script: allchallenges: unlocked_challenges=7, challenges=26
+[info   ] Script: allchallenges: unlocked_challenges=7, challenges=26
+[info   ] Script: allchallenges: unlocked_challenges=7, challenges=26
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/importance_sampling_specular.frag
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/IBL.frag
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/sunlightshadow.frag
@@ -160,92 +140,49 @@
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/sky.vert
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/sky.frag
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/sp_text_billboard.frag
-[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/dof.frag
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/bloom.frag
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/gaussian6h.frag
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/bloomblend.frag
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/lensblend.frag
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/passthrough.frag
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[info   ] Script: onForceFieldKartCollision
-[warn   ] LayoutManager: Statically sized widgets took all the place!!
+[info   ] HTTPRequest: Sending userid=150449&token=************************&visitingid=150449 to https://online.supertuxkart.net/api/v2/user/get-friends-list/
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/20527896005e68db947c130.png
 [info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/3656909105e8376b357488.png
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/16434000915e760f33aaa11.png
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/16082021255e6dfdfca6fa8.jpg
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/3348365915e6d3d58ba027.png
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/2796412705e65753496a59.jpg
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/3132542745e7bbfe1a72fc.png
+[info   ] Script: onForceFieldKartCollision
+[info   ] Script: onForceFieldKartCollision
+[info   ] Script: onForceFieldKartCollision
+[info   ] Script: onForceFieldKartCollision
+[info   ] Script: onForceFieldKartCollision
+[info   ] Script: onForceFieldKartCollision
+[info   ] Script: onForceFieldKartCollision
+[info   ] Script: onForceFieldKartCollision
+[info   ] Script: onForceFieldKartCollision
+[info   ] Script: onForceFieldKartCollision
+[info   ] Script: onForceFieldKartCollision
+[info   ] Script: onForceFieldKartCollision
+[info   ] Script: onForceFieldKartCollision
+[info   ] Script: onForceFieldKartCollision
+[info   ] Script: onForceFieldKartCollision
+[info   ] Script: onForceFieldKartCollision
+[info   ] Script: onForceFieldKartCollision
+[info   ] Script: onForceFieldKartCollision
+[info   ] Script: onForceFieldKartCollision
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/1852009675e6572d94c78e.jpg
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/2437747375e84eed08edb1.jpg
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/15130355255e6a107a7f75e.png
+[info   ] HTTPRequest: Downloading https://online.supertuxkart.net/dl/images/7394783115e77bccb31465.jpg
 [info   ] Singleton: Destroyed singleton.
 [info   ] Singleton: Destroyed singleton.
 [info   ] Singleton: Destroyed singleton.
 [verbose  ] RaceManager: Nb of karts=5, ghost karts:0 ai:4 players:1
 
-[info   ] Track: Overall scene complexity estimated at 242
-[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/godfade.frag
-[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/gaussian3v.frag
-[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/gaussian3h.frag
-[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/godray.frag
-[info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] Singleton: Destroyed singleton.
-[info   ] Singleton: Destroyed singleton.
-[info   ] Singleton: Destroyed singleton.
 [info   ] Track: Overall scene complexity estimated at 154
-[info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] Singleton: Destroyed singleton.
-[info   ] Singleton: Destroyed singleton.
-[info   ] Singleton: Destroyed singleton.
-[info   ] Track: Overall scene complexity estimated at 422
-[info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] Singleton: Destroyed singleton.
-[info   ] Singleton: Destroyed singleton.
-[info   ] Singleton: Destroyed singleton.
-[info   ] Track: Overall scene complexity estimated at 352
-[info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
-[info   ] Singleton: Destroyed singleton.
-[info   ] Singleton: Destroyed singleton.
-[info   ] Singleton: Destroyed singleton.
-[info   ] Track: Overall scene complexity estimated at 181
 [info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
 [info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
 [info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
@@ -254,10 +191,33 @@
 [info   ] Singleton: Destroyed singleton.
 [verbose  ] RaceManager: Nb of karts=0, ghost karts:0 ai:0 players:0
 
-[info   ] [FileManager]: Creating directory(ies) '/home/riky/.cache/supertuxkart/cached-textures/hd/tracks/gpwin'
-[info   ] FileManager: Creating directory '/home/riky/.cache/supertuxkart/cached-textures/hd/tracks/gpwin/'.
-[warn   ] Scripting preprocessing: /usr/share/supertuxkart/data/library/stklib_monkeyCheering_a/scripting.as:28: warning: End of input with no newline, supplemented newline
-[info   ] Track: Overall scene complexity estimated at 172
+[warn   ] AnimTexture: Did not find animate texture 'seagloss.png'
+[info   ] Track: Overall scene complexity estimated at 12
+[info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] Singleton: Destroyed singleton.
+[info   ] Singleton: Destroyed singleton.
+[info   ] Singleton: Destroyed singleton.
+[verbose  ] RaceManager: Nb of karts=1, ghost karts:0 ai:0 players:1
+
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/tracks/overworld/splatting.frag
+[info   ] Track: Overall scene complexity estimated at 106
+[info   ] Script: allchallenges: unlocked_challenges=8, challenges=26
+[info   ] Script: allchallenges: unlocked_challenges=8, challenges=26
+[info   ] Script: allchallenges: unlocked_challenges=8, challenges=26
+[info   ] Script: allchallenges: unlocked_challenges=8, challenges=26
+[info   ] Singleton: Destroyed singleton.
+[info   ] Singleton: Destroyed singleton.
+[info   ] Singleton: Destroyed singleton.
+[verbose  ] RaceManager: Nb of karts=5, ghost karts:0 ai:4 players:1
+
+[info   ] Track: Overall scene complexity estimated at 422
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/godfade.frag
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/gaussian3v.frag
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/gaussian3h.frag
+[info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/shaders/godray.frag
+[info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
 [info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
 [info   ] Singleton: Destroyed singleton.
 [info   ] Singleton: Destroyed singleton.
@@ -273,18 +233,19 @@
 
 [info   ] ShaderFilesManager: Compiling shader: /usr/share/supertuxkart/data/tracks/overworld/splatting.frag
 [info   ] Track: Overall scene complexity estimated at 106
-[info   ] Script: allchallenges: unlocked_challenges=7, challenges=26
-[info   ] Script: allchallenges: unlocked_challenges=7, challenges=26
-[info   ] Script: allchallenges: unlocked_challenges=7, challenges=26
-[info   ] Script: allchallenges: unlocked_challenges=7, challenges=26
+[info   ] Script: allchallenges: unlocked_challenges=9, challenges=26
+[info   ] Script: allchallenges: unlocked_challenges=9, challenges=26
+[info   ] Script: allchallenges: unlocked_challenges=9, challenges=26
+[info   ] Script: allchallenges: unlocked_challenges=9, challenges=26
+[info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
+[info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/poll/
 [info   ] Singleton: Destroyed singleton.
 [info   ] Singleton: Destroyed singleton.
 [info   ] Singleton: Destroyed singleton.
 [info   ] HTTPRequest: Sending userid=150449&token=************************ to https://online.supertuxkart.net/api/v2/user/client-quit/
-[verbose  ] Thread: Start waiting 3060650.683000
-[verbose  ] Thread: Waited 1.753000 seconds for thread to become deleteable.
-[verbose  ] Thread: Stop waiting 3060652.436000
-[info   ] Singleton: Destroyed singleton.
+[verbose  ] Thread: Start waiting 1063676.245000
+[verbose  ] Thread: Waited 0.430000 seconds for thread to become deleteable.
+[verbose  ] Thread: Stop waiting 1063676.675000
 [info   ] Singleton: Destroyed singleton.
 [info   ] Singleton: Destroyed singleton.
 [info   ] Singleton: Destroyed singleton.

@@ -1,5 +1,5 @@
-favorites=exo-web-browser.desktop,exo-mail-reader.desktop,exo-file-manager.desktop,exo-terminal-emulator.desktop,telegramdesktop.desktop,gvim.desktop
-recent=virtualbox.desktop,Zoom.desktop,system-config-printer.desktop,cups.desktop,eclipse.desktop,exo-preferred-applications.desktop
+favorites=exo-web-browser.desktop,exo-mail-reader.desktop,exo-file-manager.desktop,exo-terminal-emulator.desktop,gvim.desktop,virtualbox.desktop
+recent=Zoom.desktop,virtualbox.desktop,gvim.desktop,thunar-bulk-rename.desktop,bvnc.desktop,org.gnome.FileRoller.desktop,thunar-settings.desktop
 button-icon=draw-circle
 button-single-row=false
 show-button-title=false
@@ -23,9 +23,9 @@ stay-on-focus-out=false
 confirm-session-command=true
 menu-width=450
 menu-height=500
-menu-opacity=100
+menu-opacity=80
 command-settings=xfce4-settings-manager
-show-command-settings=false
+show-command-settings=true
 command-lockscreen=xflock4
 show-command-lockscreen=true
 command-switchuser=gdmflexiserver
@@ -35,7 +35,7 @@ show-command-logoutuser=false
 command-restart=xfce4-session-logout --reboot --fast
 show-command-restart=true
 command-shutdown=xfce4-session-logout --halt --fast
-show-command-shutdown=true
+show-command-shutdown=false
 command-suspend=xfce4-session-logout --suspend
 show-command-suspend=true
 command-hibernate=xfce4-session-logout --hibernate
@@ -52,7 +52,7 @@ search-actions=5
 name=Man Pages
 pattern=#
 command=exo-open --launch TerminalEmulator man %s
-regex=false
+regex=true
 
 [action1]
 name=Web Search

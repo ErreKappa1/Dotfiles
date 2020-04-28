@@ -959,6 +959,29 @@
 # Delay of the ES (ms) (integer)
 #sout-delay-delay=0
 
+[stream_out_chromecast] # Chromecast stream output
+
+# ? (string)
+#sout-chromecast-ip=
+
+# ? (integer)
+#sout-chromecast-port=8009
+
+# ? (boolean)
+#sout-chromecast-video=1
+
+# HTTP port (integer)
+#sout-chromecast-http-port=8010
+
+# Performance warning (integer)
+#sout-chromecast-show-perf-warning=1
+
+# Enable Audio passthrough (boolean)
+#sout-chromecast-audio-passthrough=0
+
+# Conversion quality (integer)
+#sout-chromecast-conversion-quality=1
+
 [bridge] # Bridge stream output
 
 # ID (integer)
@@ -3911,7 +3934,7 @@ equalizer-preamp=-20.000000
 #random=0
 
 # Repeat all (boolean)
-loop=1
+#loop=0
 
 # Repeat current item (boolean)
 #repeat=0

@@ -14,7 +14,7 @@
       <property name="icon-size" type="uint" value="0"/>
       <property name="size" type="uint" value="26"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="4"/>
+        <value type="int" value="71"/>
         <value type="int" value="51"/>
         <value type="int" value="2"/>
         <value type="int" value="3"/>
@@ -29,12 +29,12 @@
         <value type="int" value="68"/>
         <value type="int" value="50"/>
       </property>
-      <property name="background-style" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="0"/>
       <property name="background-rgba" type="array">
+        <value type="double" value="0.905882"/>
+        <value type="double" value="0.909804"/>
+        <value type="double" value="0.921569"/>
         <value type="double" value="1.000000"/>
-        <value type="double" value="1.000000"/>
-        <value type="double" value="1.000000"/>
-        <value type="double" value="0.000000"/>
       </property>
       <property name="enter-opacity" type="uint" value="100"/>
       <property name="span-monitors" type="bool" value="false"/>
@@ -61,9 +61,9 @@
         <value type="int" value="23"/>
         <value type="int" value="11"/>
         <value type="int" value="20"/>
-        <value type="int" value="32"/>
         <value type="int" value="22"/>
         <value type="int" value="27"/>
+        <value type="int" value="72"/>
         <value type="int" value="25"/>
         <value type="int" value="66"/>
         <value type="int" value="21"/>
@@ -110,15 +110,15 @@
       <property name="output-name" type="string" value="HDMI-1"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="length" type="uint" value="100"/>
-      <property name="background-style" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="0"/>
       <property name="background-rgba" type="array">
+        <value type="double" value="0.905882"/>
+        <value type="double" value="0.909804"/>
+        <value type="double" value="0.921569"/>
         <value type="double" value="1.000000"/>
-        <value type="double" value="1.000000"/>
-        <value type="double" value="1.000000"/>
-        <value type="double" value="0.000000"/>
       </property>
       <property name="plugin-ids" type="array">
-        <value type="int" value="64"/>
+        <value type="int" value="74"/>
         <value type="int" value="1"/>
         <value type="int" value="43"/>
         <value type="int" value="73"/>
@@ -177,10 +177,6 @@
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-4" type="string" value="pager">
-      <property name="rows" type="uint" value="2"/>
-      <property name="miniature-view" type="bool" value="true"/>
-    </property>
     <property name="plugin-5" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
@@ -188,6 +184,7 @@
       <property name="show-frame" type="bool" value="false"/>
       <property name="square-icons" type="bool" value="false"/>
       <property name="names-ordered" type="array">
+        <value type="string" value="gpick"/>
         <value type="string" value="zoom"/>
         <value type="string" value="notes"/>
         <value type="string" value="thunar"/>
@@ -297,11 +294,6 @@
     <property name="plugin-30" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="157998118024.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-32" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="157998124826.desktop"/>
       </property>
     </property>
     <property name="plugin-33" type="string" value="launcher">
@@ -467,10 +459,6 @@
       </property>
     </property>
     <property name="plugin-49" type="string" value="whiskermenu"/>
-    <property name="plugin-63" type="string" value="whiskermenu"/>
-    <property name="plugin-64" type="string" value="pager">
-      <property name="rows" type="uint" value="2"/>
-    </property>
     <property name="plugin-35" type="string" value="xfce4-notes-plugin"/>
     <property name="plugin-45" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
@@ -513,6 +501,19 @@
       <property name="sort-order" type="uint" value="0"/>
       <property name="grouping" type="uint" value="1"/>
       <property name="include-all-monitors" type="bool" value="false"/>
+    </property>
+    <property name="plugin-63" type="string" value="whiskermenu"/>
+    <property name="plugin-71" type="string" value="pager">
+      <property name="rows" type="uint" value="2"/>
+    </property>
+    <property name="plugin-72" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15870477341.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-74" type="string" value="pager">
+      <property name="rows" type="uint" value="2"/>
+      <property name="miniature-view" type="bool" value="true"/>
     </property>
   </property>
 </channel>

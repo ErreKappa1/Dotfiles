@@ -21,6 +21,7 @@ application/x-extension-xht=firefox.desktop;
 text/x-sql=gvim.desktop;
 application/x-java-archive=userapp-"java"-J612H0.desktop;
 application/x-sharedlib=vim.desktop;userapp-"java"-J612H0.desktop;
+audio/midi=org.hydrogenmusic.Hydrogen.desktop;
 
 [Default Applications]
 text/x-txt2tags=gvim.desktop

@@ -1,0 +1,20 @@
+[2020-04-21 16:42:53.456] [exthost] [info] extension host started
+[2020-04-21 16:42:53.495] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-04-21 16:42:53.495] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2020-04-21 16:42:53.673] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-04-21 16:42:53.673] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/extension
+[2020-04-21 16:42:53.901] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-04-21 16:42:53.901] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2020-04-21 16:42:54.255] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-04-21 16:42:54.255] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github-authentication/dist/extension.js
+[2020-04-21 16:42:54.366] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-04-21 16:42:54.366] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/extension
+[2020-04-21 16:42:54.579] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-04-21 16:42:54.579] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/search-result/dist/extension.js
+[2020-04-21 16:42:54.716] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-04-21 16:42:54.716] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/vscode-account/dist/extension.js
+[2020-04-21 16:42:55.163] [exthost] [info] ExtensionService#_doActivateExtension brapifra.c-compiler {"startup":true,"extensionId":{"value":"brapifra.c-compiler","_lower":"brapifra.c-compiler"},"activationEvent":"*"}
+[2020-04-21 16:42:55.163] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/riky/.vscode-oss/extensions/brapifra.c-compiler-0.0.4/extension
+[2020-04-21 16:42:55.288] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"extensionId":{"value":"vscodevim.vim","_lower":"vscodevim.vim"},"activationEvent":"*"}
+[2020-04-21 16:42:55.288] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/riky/.vscode-oss/extensions/vscodevim.vim-1.12.4/out/extension
+[2020-04-21 16:43:05.653] [exthost] [info] eager extensions activated

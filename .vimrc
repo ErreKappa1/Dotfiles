@@ -18,6 +18,10 @@ augroup project
 	autocmd BufRead,BufNewFile *.h,*.c set filetype=c
 augroup END
 set cin!
+map zo o<esc>
+map zO O<esc>
+map z<down> o<esc>k
+map z<up> O<esc>j
 nnoremap <F1> :make!<cr>
 nnoremap <F4> :! ./gmake.sh<cr>
 nnoremap <F5> :! clear ; ./x*<cr>

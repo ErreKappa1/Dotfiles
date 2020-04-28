@@ -2,10 +2,10 @@
 <gpick type="dynv">
 <generate_scheme type="dynv">
 <hsv_shift type="float" list="true"><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li><li>0</li></hsv_shift>
-<hue type="float">180</hue>
-<lightness type="float">0</lightness>
-<saturation type="float">100</saturation>
-<type type="int32">0</type>
+<hue type="float">225</hue>
+<lightness type="float">41.3726</lightness>
+<saturation type="float">9.09091</saturation>
+<type type="int32">6</type>
 <wheel_locked type="bool">true</wheel_locked>
 <wheel_type type="int32">0</wheel_type>
 </generate_scheme>
@@ -170,15 +170,15 @@
 <layout_name type="string">std_layout_menu_1</layout_name>
 </layout_preview>
 <main type="dynv">
-<color_source type="string">color_picker</color_source>
+<color_source type="string">generate_scheme</color_source>
 <paned_position type="int32">531</paned_position>
 <secondary_color_source type="string"></secondary_color_source>
 <vertical_paned_position type="int32">0</vertical_paned_position>
 <window type="dynv">
-<height type="int32">992</height>
-<width type="int32">951</width>
-<x type="int32">962</x>
-<y type="int32">31</y>
+<height type="int32">517</height>
+<width type="int32">950</width>
+<x type="int32">2013</x>
+<y type="int32">433</y>
 </window>
 </main>
 <picker type="dynv">
@@ -195,7 +195,7 @@
 <cmyk type="bool">false</cmyk>
 <hsl type="bool">false</hsl>
 <hsv type="bool">false</hsv>
-<info type="bool">false</info>
+<info type="bool">true</info>
 <lab type="bool">false</lab>
 <lch type="bool">false</lch>
 <rgb type="bool">false</rgb>
@@ -207,7 +207,7 @@
 </sampler>
 <swatch type="dynv">
 <active_color type="int32">1</active_color>
-<color1 type="color">1 0 0 3.07123e-41</color1>
+<color1 type="color">0.905882 0.909804 0.921569 4.57692e-41</color1>
 <color2 type="color">0.285714 0.285714 0.285714 0</color2>
 <color3 type="color">0.428571 0.428571 0.428571 0</color3>
 <color4 type="color">0.571429 0.571429 0.571429 0</color4>

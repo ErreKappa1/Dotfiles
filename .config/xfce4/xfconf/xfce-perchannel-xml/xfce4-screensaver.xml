@@ -21,6 +21,7 @@
     </property>
     <property name="logout" type="empty">
       <property name="enabled" type="bool" value="false"/>
+      <property name="delay" type="int" value="112"/>
     </property>
     <property name="user-switching" type="empty">
       <property name="enabled" type="bool" value="true"/>

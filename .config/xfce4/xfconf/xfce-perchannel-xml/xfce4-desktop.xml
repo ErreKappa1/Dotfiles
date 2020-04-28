@@ -6,8 +6,8 @@
       <property name="monitoreDP-1" type="empty">
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/home/riky/Pictures/Wallpapers/MK1-Dark(2).png"/>
+          <property name="image-style" type="int" value="4"/>
+          <property name="last-image" type="string" value="/home/riky/Pictures/Wallpapers/Naturalistic/2caja9ifpvi21.png"/>
           <property name="rgba1" type="array">
             <value type="double" value="0.447059"/>
             <value type="double" value="0.623529"/>
@@ -24,8 +24,8 @@
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-stripes.png"/>
+          <property name="image-style" type="int" value="6"/>
+          <property name="last-image" type="string" value="/home/riky/Pictures/Wallpapers/Naturalistic/2caja9ifpvi21.png"/>
         </property>
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
@@ -34,8 +34,8 @@
         </property>
         <property name="workspace3" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-stripes.png"/>
+          <property name="image-style" type="int" value="6"/>
+          <property name="last-image" type="string" value="/home/riky/Pictures/Wallpapers/Naturalistic/2caja9ifpvi21.png"/>
         </property>
         <property name="workspace4" type="empty">
           <property name="color-style" type="int" value="0"/>
@@ -71,8 +71,8 @@
       <property name="monitorHDMI-1" type="empty">
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/home/riky/Pictures/Wallpapers/MK1-Dark(2).png"/>
+          <property name="image-style" type="int" value="4"/>
+          <property name="last-image" type="string" value="/home/riky/Pictures/Wallpapers/Naturalistic/171260.jpg"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
@@ -87,7 +87,8 @@
         <property name="workspace3" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-stripes.png"/>
+          <property name="last-image" type="string" value="/home/riky/Pictures/Wallpapers/Naturalistic/2caja9ifpvi21.png"/>
+          <property name="backdrop-cycle-enable" type="bool" value="false"/>
         </property>
         <property name="workspace4" type="empty">
           <property name="color-style" type="int" value="0"/>
@@ -144,7 +145,7 @@
       </property>
     </property>
     <property name="single-workspace-mode" type="bool" value="true"/>
-    <property name="single-workspace-number" type="int" value="0"/>
+    <property name="single-workspace-number" type="int" value="3"/>
   </property>
   <property name="windowlist-menu" type="empty">
     <property name="show-submenus" type="bool" value="false"/>
@@ -158,17 +159,18 @@
       <property name="show-trash" type="bool" value="false"/>
       <property name="show-home" type="bool" value="false"/>
     </property>
-    <property name="icon-size" type="uint" value="30"/>
+    <property name="icon-size" type="uint" value="50"/>
     <property name="style" type="int" value="2"/>
     <property name="primary" type="bool" value="true"/>
     <property name="use-custom-font-size" type="bool" value="false"/>
     <property name="show-hidden-files" type="bool" value="true"/>
-    <property name="single-click" type="bool" value="true"/>
+    <property name="single-click" type="bool" value="false"/>
     <property name="show-thumbnails" type="bool" value="true"/>
     <property name="gravity" type="int" value="2"/>
+    <property name="tooltip-size" type="double" value="50.000000"/>
   </property>
   <property name="last" type="empty">
-    <property name="window-width" type="int" value="608"/>
+    <property name="window-width" type="int" value="710"/>
     <property name="window-height" type="int" value="605"/>
   </property>
   <property name="desktop-menu" type="empty">

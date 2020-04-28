@@ -9,17 +9,18 @@
   <Global>
     <ExtraData>
       <ExtraDataItem name="GUI/Details/Elements" value="general,system,preview,display,storage,audio,network,usb,sharedFolders,description"/>
-      <ExtraDataItem name="GUI/LastItemSelected" value="m=VArch"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="6,58,954,1016"/>
-      <ExtraDataItem name="GUI/RecentFolderCD" value="/home/riky/Documents/Other/ISO"/>
-      <ExtraDataItem name="GUI/RecentListCD" value="/home/riky/Documents/Other/ISO/archlinux-2020.03.01-x86_64.iso"/>
-      <ExtraDataItem name="GUI/SplitterSizes" value="315,638"/>
-      <ExtraDataItem name="GUI/SuppressMessages" value="confirmInputCapture"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="m=Ubuntu"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="6,58,1912,1016,max"/>
+      <ExtraDataItem name="GUI/RecentFolderCD" value="/home/riky/Documents/Other/ISO/Ubuntu"/>
+      <ExtraDataItem name="GUI/RecentListCD" value="/home/riky/Documents/Other/ISO/Ubuntu/ubuntu-20.04-desktop-amd64.iso,/home/riky/Documents/Other/ISO/ubuntudde-remix-20.04-20200406-beta.iso,/home/riky/Documents/Other/ISO/archlinux-2020.03.01-x86_64.iso"/>
+      <ExtraDataItem name="GUI/SplitterSizes" value="632,1279"/>
+      <ExtraDataItem name="GUI/SuppressMessages" value="confirmInputCapture,remindAboutMouseIntegration,remindAboutAutoCapture"/>
       <ExtraDataItem name="GUI/Toolbar" value="false"/>
-      <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
+      <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Snapshots"/>
     </ExtraData>
     <MachineRegistry>
       <MachineEntry uuid="{9489c74c-0974-4746-bbd0-40b3f122c852}" src="/home/riky/VirtualBox VMs/VArch/VArch.vbox"/>
+      <MachineEntry uuid="{d53e451f-7b24-4d5a-9b5c-433ab608ad5f}" src="/home/riky/VirtualBox VMs/Ubuntu/Ubuntu.vbox"/>
     </MachineRegistry>
     <NetserviceRegistry>
       <DHCPServers>

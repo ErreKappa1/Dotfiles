@@ -10,6 +10,7 @@
             "file:///home/riky/Documents/Git/ErreKappa1/Apa/Programmazione/Laboratori/Lab_11/Es_1"
         ],
         "files2": [
+            "file:///home/riky/Coding/Bash/randomScript/move-to-next-monitor.sh",
             "file:///home/riky/.config/mimeapps.list",
             "file:///tmp/mozilla_riky0/Prova_15-02-07-4.sql",
             "file:///tmp/mozilla_riky0/Prova_15-02-07-3.sql",
@@ -131,6 +132,17 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/riky/Coding/Bash/randomScript/move-to-next-monitor.sh",
+                                        "path": "/home/riky/Coding/Bash/randomScript/move-to-next-monitor.sh",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Coding/Bash/randomScript/move-to-next-monitor.sh"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/riky/.config/mimeapps.list",
                                         "path": "/home/riky/.config/mimeapps.list",
                                         "scheme": "file"
@@ -227,17 +239,6 @@
                                     "label": "~/Documents/Apa/Documentazione_Esame/Librerie/Arco.c"
                                 },
                                 {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/riky/Documents/Apa/Documentazione_Esame/Librerie/Arco.h",
-                                        "path": "/home/riky/Documents/Apa/Documentazione_Esame/Librerie/Arco.h",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/Apa/Documentazione_Esame/Librerie/Arco.h"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -311,7 +312,7 @@
                                 },
                                 {
                                     "id": "workbench.action.openGlobalKeybindings",
-                                    "label": "&&Keyboard Shortcuts"
+                                    "label": "Keyboard Shortcuts"
                                 },
                                 {
                                     "id": "workbench.extensions.action.showRecommendedKeymapExtensions",
@@ -475,10 +476,6 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "workbench.action.toggleMultiCursorModifier",
-                        "label": "Switch to Ctrl+Click for Multi-Cursor"
-                    },
-                    {
                         "id": "editor.action.insertCursorAbove",
                         "label": "&&Add Cursor Above"
                     },
@@ -501,6 +498,17 @@
                     {
                         "id": "editor.action.selectHighlights",
                         "label": "Select All &&Occurrences"
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
+                        "id": "workbench.action.toggleMultiCursorModifier",
+                        "label": "Switch to Ctrl+Click for Multi-Cursor"
+                    },
+                    {
+                        "id": "editor.action.toggleColumnSelection",
+                        "label": "Column &&Selection Mode"
                     }
                 ]
             },
@@ -682,7 +690,7 @@
                     },
                     {
                         "id": "workbench.view.debug",
-                        "label": "&&Debug"
+                        "label": "&&Run"
                     },
                     {
                         "id": "workbench.view.extensions",
@@ -726,7 +734,8 @@
                     },
                     {
                         "id": "editor.action.toggleRenderWhitespace",
-                        "label": "&&Render Whitespace"
+                        "label": "&&Render Whitespace",
+                        "checked": true
                     },
                     {
                         "id": "editor.action.toggleRenderControlCharacter",
@@ -738,8 +747,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -886,7 +894,7 @@
                     },
                     {
                         "id": "workbench.action.gotoSymbol",
-                        "label": "Go to &&Symbol in File..."
+                        "label": "Go to &&Symbol in Editor..."
                     },
                     {
                         "id": "editor.action.revealDefinition",
@@ -943,7 +951,7 @@
                     }
                 ]
             },
-            "Debug": {
+            "Run": {
                 "items": [
                     {
                         "id": "workbench.action.debug.start",
@@ -1060,8 +1068,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1610,7 +1617,7 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#1e1e1e",
-    "pickerWorkingDir": "/home/riky/Documents/Apa/Programmazione/Laboratori/Lab_5",
+    "pickerWorkingDir": "/home/riky/Coding/Bash/randomScript",
     "windowsState": {
         "lastActiveWindow": {
             "workspaceIdentifier": {
@@ -1619,10 +1626,10 @@
             },
             "backupPath": "/home/riky/.config/Code - OSS/Backups/990deb1add97ce454e606d78babbf2b0",
             "uiState": {
-                "mode": 1,
-                "x": 8,
+                "mode": 0,
+                "x": 6,
                 "y": 58,
-                "width": 952,
+                "width": 1912,
                 "height": 1016
             }
         },
