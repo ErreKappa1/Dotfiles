@@ -1,31 +1,24 @@
 [Added Associations]
-text/html=tor-browser-en-us.desktop;firefox.desktop;
-application/octet-stream=vlc.desktop;tor-browser-en-us.desktop;
-application/pdf=mupdf.desktop;
-image/jpeg=ristretto.desktop;feh.desktop;
-text/x-txt2tags=gvim.desktop;
-text/x-cmake=gvim.desktop;
-application/xml=gvim.desktop;
-image/png=ristretto.desktop;feh.desktop;
-text/plain=vim.desktop;
-x-scheme-handler/http=exo-web-browser.desktop;firefox.desktop;
-x-scheme-handler/https=exo-web-browser.desktop;firefox.desktop;
+inode/directory=exo-file-manager.desktop;
+x-scheme-handler/trash=exo-file-manager.desktop;
+text/plain=gvim.desktop;
+text/x-csrc=gvim.desktop;
+inode/symlink=exo-file-manager.desktop;
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
 x-scheme-handler/ftp=firefox.desktop;
 x-scheme-handler/chrome=firefox.desktop;
+text/html=firefox.desktop;
 application/x-extension-htm=firefox.desktop;
 application/x-extension-html=firefox.desktop;
 application/x-extension-shtml=firefox.desktop;
 application/xhtml+xml=firefox.desktop;
 application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
-text/x-sql=gvim.desktop;
-application/x-java-archive=userapp-"java"-J612H0.desktop;
-application/x-sharedlib=vim.desktop;userapp-"java"-J612H0.desktop;
-audio/midi=org.hydrogenmusic.Hydrogen.desktop;
 
 [Default Applications]
-text/x-txt2tags=gvim.desktop
-text/x-cmake=gvim.desktop
+text/plain=gvim.desktop
+text/x-csrc=gvim.desktop
 x-scheme-handler/http=firefox.desktop
 x-scheme-handler/https=firefox.desktop
 x-scheme-handler/ftp=firefox.desktop
@@ -37,4 +30,3 @@ application/x-extension-shtml=firefox.desktop
 application/xhtml+xml=firefox.desktop
 application/x-extension-xhtml=firefox.desktop
 application/x-extension-xht=firefox.desktop
-application/pdf=mupdf.desktop

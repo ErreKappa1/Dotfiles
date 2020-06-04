@@ -7,25 +7,12 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="4"/>
-          <property name="last-image" type="string" value="/home/riky/Pictures/Wallpapers/Naturalistic/2caja9ifpvi21.png"/>
-          <property name="rgba1" type="array">
-            <value type="double" value="0.447059"/>
-            <value type="double" value="0.623529"/>
-            <value type="double" value="0.811765"/>
-            <value type="double" value="1.000000"/>
-          </property>
-          <property name="rgba2" type="array">
-            <value type="double" value="0.203922"/>
-            <value type="double" value="0.396078"/>
-            <value type="double" value="0.643137"/>
-            <value type="double" value="1.000000"/>
-          </property>
-          <property name="backdrop-cycle-enable" type="bool" value="false"/>
+          <property name="last-image" type="string" value="/home/riky/Pictures/Wallpapers/freeBlackAbsol/freeblackabsol.jpg"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="6"/>
-          <property name="last-image" type="string" value="/home/riky/Pictures/Wallpapers/Naturalistic/2caja9ifpvi21.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-stripes.png"/>
         </property>
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
@@ -34,8 +21,8 @@
         </property>
         <property name="workspace3" type="empty">
           <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="6"/>
-          <property name="last-image" type="string" value="/home/riky/Pictures/Wallpapers/Naturalistic/2caja9ifpvi21.png"/>
+          <property name="image-style" type="int" value="5"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-stripes.png"/>
         </property>
         <property name="workspace4" type="empty">
           <property name="color-style" type="int" value="0"/>
@@ -72,7 +59,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="4"/>
-          <property name="last-image" type="string" value="/home/riky/Pictures/Wallpapers/Naturalistic/171260.jpg"/>
+          <property name="last-image" type="string" value="/home/riky/Pictures/Wallpapers/freeBlackAbsol/freeblackabsol.jpg"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
@@ -87,8 +74,7 @@
         <property name="workspace3" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/home/riky/Pictures/Wallpapers/Naturalistic/2caja9ifpvi21.png"/>
-          <property name="backdrop-cycle-enable" type="bool" value="false"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-stripes.png"/>
         </property>
         <property name="workspace4" type="empty">
           <property name="color-style" type="int" value="0"/>
@@ -121,60 +107,35 @@
           <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-stripes.png"/>
         </property>
       </property>
-      <property name="monitorDP-1" type="empty">
-        <property name="workspace0" type="empty">
-          <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/home/riky/Pictures/ColchuckLake.jpg"/>
-        </property>
-        <property name="workspace1" type="empty">
-          <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-stripes.png"/>
-        </property>
-        <property name="workspace2" type="empty">
-          <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-stripes.png"/>
-        </property>
-        <property name="workspace3" type="empty">
-          <property name="color-style" type="int" value="0"/>
-          <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/backgrounds/xfce/xfce-stripes.png"/>
-        </property>
-      </property>
     </property>
     <property name="single-workspace-mode" type="bool" value="true"/>
-    <property name="single-workspace-number" type="int" value="3"/>
-  </property>
-  <property name="windowlist-menu" type="empty">
-    <property name="show-submenus" type="bool" value="false"/>
-    <property name="show-sticky-once" type="bool" value="true"/>
-    <property name="show-workspace-names" type="bool" value="false"/>
-  </property>
-  <property name="desktop-icons" type="empty">
-    <property name="file-icons" type="empty">
-      <property name="show-filesystem" type="bool" value="false"/>
-      <property name="show-removable" type="bool" value="false"/>
-      <property name="show-trash" type="bool" value="false"/>
-      <property name="show-home" type="bool" value="false"/>
-    </property>
-    <property name="icon-size" type="uint" value="50"/>
-    <property name="style" type="int" value="2"/>
-    <property name="primary" type="bool" value="true"/>
-    <property name="use-custom-font-size" type="bool" value="false"/>
-    <property name="show-hidden-files" type="bool" value="true"/>
-    <property name="single-click" type="bool" value="false"/>
-    <property name="show-thumbnails" type="bool" value="true"/>
-    <property name="gravity" type="int" value="2"/>
-    <property name="tooltip-size" type="double" value="50.000000"/>
-  </property>
-  <property name="last" type="empty">
-    <property name="window-width" type="int" value="710"/>
-    <property name="window-height" type="int" value="605"/>
+    <property name="single-workspace-number" type="int" value="0"/>
   </property>
   <property name="desktop-menu" type="empty">
     <property name="show" type="bool" value="false"/>
     <property name="show-icons" type="bool" value="false"/>
+  </property>
+  <property name="windowlist-menu" type="empty">
+    <property name="show" type="bool" value="true"/>
+    <property name="show-workspace-names" type="bool" value="false"/>
+    <property name="show-sticky-once" type="bool" value="true"/>
+  </property>
+  <property name="desktop-icons" type="empty">
+    <property name="style" type="int" value="2"/>
+    <property name="icon-size" type="uint" value="50"/>
+    <property name="gravity" type="int" value="2"/>
+    <property name="primary" type="bool" value="true"/>
+    <property name="show-hidden-files" type="bool" value="true"/>
+    <property name="file-icons" type="empty">
+      <property name="show-removable" type="bool" value="false"/>
+      <property name="show-trash" type="bool" value="false"/>
+      <property name="show-filesystem" type="bool" value="false"/>
+      <property name="show-home" type="bool" value="false"/>
+    </property>
+    <property name="tooltip-size" type="double" value="50.000000"/>
+  </property>
+  <property name="last" type="empty">
+    <property name="window-width" type="int" value="603"/>
+    <property name="window-height" type="int" value="611"/>
   </property>
 </channel>

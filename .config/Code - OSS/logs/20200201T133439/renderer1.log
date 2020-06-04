@@ -1,7 +1,0 @@
-[2020-02-01 13:34:43.446] [renderer1] [error] Error: Unable to read file (Error: File not found (/home/riky/Documents/Apa/Documentazione_Esame/Librerie/BST.h))
-    at Object.t.createErrorWithActions (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:58:379)
-    at w.handleSetInputError (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4837:647)
-    at w.handleSetInputError (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4840:376)
-    at w.setInput (file:///usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4837:358)
-[2020-02-01 13:34:43.616] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/riky/Documents/Apa/Documentazione_Esame/Librerie/BST.c'
-[2020-02-01 13:34:43.618] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/riky/Documents/Apa/Documentazione_Esame/Librerie/BST.c'

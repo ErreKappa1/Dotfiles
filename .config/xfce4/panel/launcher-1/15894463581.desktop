@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Thunar File Manager
+Comment=Browse the filesystem with the file manager
+GenericName=File Manager
+Exec=thunar %F
+Icon=black-default-folder
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=System;Utility;Core;GTK;FileTools;FileManager;
+MimeType=inode/directory;
+Path=
+X-XFCE-Source=file:///home/riky/.local/share/applications/thunar.desktop

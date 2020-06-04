@@ -27,4 +27,5 @@ nnoremap <F4> :! ./gmake.sh<cr>
 nnoremap <F5> :! clear ; ./x*<cr>
 nnoremap <F9> :mksession! Vim/current.vim<cr>
 nnoremap <F10> :source Vim/current.vim<cr>
-nnoremap <F12> :tabe<cr>
+nnoremap <F11> :! ~/Coding/Bash/randomScript/vimPull.sh<cr>
+nnoremap <F12> :! ~/Coding/Bash/randomScript/vimPush.sh<cr>

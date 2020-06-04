@@ -9,8 +9,6 @@ export ZSH="/home/riky/.config/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
  ZSH_THEME="afowler"
-# ZSH_THEME="robbyrussell"
-# ZSH_THEME="alanpeabody"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -89,7 +87,7 @@ else
 fi
 
 # Compilation flags
-# export ARCHFLAGS="-arch x86_64"
+export ARCHFLAGS="-arch x86_64"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -104,9 +102,10 @@ alias term='xfce4-terminal &> /dev/null'
 alias please='sudo'
 alias vlc='cvlc'
 alias figa='echo Che schifo la figa. Meglio GNU/Linux'
-alias backup='~/Coding/Bash/randomScript/backUp/backUpToHDD.sh'
+alias backup='sudo ~/Coding/Bash/randomScript/backUp/mountHDD.sh'
 alias megapush='~/Coding/Bash/randomScript/gitPush.sh'
 alias megapull='~/Coding/Bash/randomScript/gitPull.sh'
+alias calc='~/Coding/C/Other/calc/xCalc'
 
 ## System
 alias lightup='backlight_control +10.4'
@@ -116,3 +115,10 @@ alias volumeup='pamixer -d 2'
 alias volumedown='pamixer -i 2'
 alias volumetoggle='pamixer -t' 
 
+## Terminal output
+echo "Lo so"
+echo "Non l ho Fatto apposta"
+echo "Hai ragione"
+echo "Non è colpa mia"
+echo "Non ci ho pensato"
+echo "Mi sono dimenticato"

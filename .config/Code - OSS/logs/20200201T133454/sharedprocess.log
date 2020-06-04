@@ -1,8 +1,0 @@
-[2020-02-01 13:34:57.787] [sharedprocess] [info] main {"machineId":"13d25e0314c6e7ba265aedea78fa00088f93d8420af45db15a9b3404798e0698","windowId":2}
-[2020-02-01 13:35:37.791] [sharedprocess] [info] Starting to clean up unused language packs.
-[2020-02-01 13:42:00.266] [sharedprocess] [info] Installing extension: brapifra.c-compiler
-[2020-02-01 13:42:00.791] [sharedprocess] [info] Downloaded extension: brapifra.c-compiler /tmp/fcf92717-24a8-4d3f-8e3a-d4c69eaa40de
-[2020-02-01 13:42:00.872] [sharedprocess] [info] Extracted extension to /home/riky/.vscode-oss/extensions/.brapifra.c-compiler-0.0.4: brapifra.c-compiler
-[2020-02-01 13:42:00.873] [sharedprocess] [info] Renamed to /home/riky/.vscode-oss/extensions/brapifra.c-compiler-0.0.4
-[2020-02-01 13:42:00.873] [sharedprocess] [info] Installation completed. brapifra.c-compiler
-[2020-02-01 13:42:01.234] [sharedprocess] [info] Extensions installed successfully: brapifra.c-compiler

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Minecraft
+Comment=Explore your own unique world, survive the night, and create anything you can imagine!
+Exec=/home/riky/Documents/Other/Games/Minecraft/launch.sh
+Icon=appimagekit-balena-etcher-electron
+Path=
+Terminal=false
+StartupNotify=false
