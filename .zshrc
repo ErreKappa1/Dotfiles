@@ -115,10 +115,3 @@ alias volumeup='pamixer -d 2'
 alias volumedown='pamixer -i 2'
 alias volumetoggle='pamixer -t' 
 
-## Terminal output
-echo "Lo so"
-echo "Non l ho Fatto apposta"
-echo "Hai ragione"
-echo "Non è colpa mia"
-echo "Non ci ho pensato"
-echo "Mi sono dimenticato"
