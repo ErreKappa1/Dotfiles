@@ -68,7 +68,7 @@ export ZSH="/home/riky/.config/.oh-my-zsh"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git cp vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -102,10 +102,11 @@ alias term='xfce4-terminal &> /dev/null'
 alias please='sudo'
 alias vlc='cvlc'
 alias figa='echo Che schifo la figa. Meglio GNU/Linux'
-alias backup='sudo ~/Coding/Bash/randomScript/backUp/mountHDD.sh'
-alias megapush='~/Coding/Bash/randomScript/gitPush.sh'
-alias megapull='~/Coding/Bash/randomScript/gitPull.sh'
+alias backup='sudo ~/Coding/Bash/Random_Script/backUp/mountHDD.sh'
+alias megapush='~/Coding/Bash/Random_Script/gitPush.sh'
+alias megapull='~/Coding/Bash/Random_Script/gitPull.sh'
 alias calc='~/Coding/C/Other/calc/xCalc'
+alias mktemplate='~/Coding/Bash/Random_Script/mkTemplate.sh'
 
 ## System
 alias lightup='backlight_control +10.4'
@@ -115,3 +116,10 @@ alias volumeup='pamixer -d 2'
 alias volumedown='pamixer -i 2'
 alias volumetoggle='pamixer -t' 
 
+## Terminal output
+#echo "Lo so"
+#echo "Non l ho Fatto apposta"
+#echo "Hai ragione"
+#echo "Non è colpa mia"
+#echo "Non ci ho pensato"
+#echo "Mi sono dimenticato"
