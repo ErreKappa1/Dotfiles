@@ -26,6 +26,8 @@ if has('gui_running')
 	set guifont=Hack\ 11
 	map <C-Tab> gt
 	map <C-S-Tab> gT
+else
+	source ~/.vim/statusline.vim
 endif
 
 "Project settings (Mostly based on C projects)
@@ -41,50 +43,16 @@ nmap z<down> zok
 nmap z<up> zOj
 
 		"F keys
-nnoremap <F1> :make!<cr>
+nnoremap <F1> :make<cr>
 nnoremap <F4> :! ./gmake.sh<cr>
 nnoremap <F5> :! clear ; ./x*<cr>
 nnoremap <F9> :mksession! Vim/current.vim<cr>
 nnoremap <F10> :source Vim/current.vim<cr>
-nnoremap <F11> :! ~/Coding/Bash/randomScript/vimPull.sh<cr>
-nnoremap <F12> :! ~/Coding/Bash/randomScript/vimPush.sh<cr>
+nnoremap <F11> :! ~/Coding/Bash/Random_Script/vimPull.sh<cr>
+nnoremap <F12> :! ~/Coding/Bash/Random_Script/vimPush.sh<cr>
 	"Insert mode
 	"Visual mode
 	"Selcet	mode
 	"CmdLin	mode
 	"PendOp mode
-	
-" Mike's statusline
-let g:battery_level = ''
-function! SetBatteryLevel(timer_id)
-  let l:battery_level = system('acpi | grep -oP "(\d+)%" | tr -d "\n"')
-  if (battery_level != '')
-    let g:battery_level = l:battery_level
-    redraw!
-  endif
-  call timer_start(30000, 'SetBatteryLevel')
-endfunction
 
-function! GitBranch()
-  return system("git rev-parse –abbrev-ref HEAD 2>/dev/null | tr -d '\n'")
-endfunction
-
-function! StatuslineGit()
-  let l:branchname = GitBranch()
-  return strlen(l:branchname) > 0?'  '.l:branchname.' ':''
-endfunction
-
-set laststatus=2
-set statusline=
-set statusline+=%#PmenuSel#
-set statusline+=%{StatuslineGit()}
-set statusline+=%#LineNr#
-set statusline+=\ %f
-set statusline+=%m
-set statusline+=%=
-set statusline+=%{g:battery_level}\ 
-set statusline+=%#CursorColumn#
-set statusline+=\ %{strftime('%H:%M')}
-set statusline+=\ 
-
-call SetBatteryLevel(0)
