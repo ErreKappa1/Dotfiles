@@ -105,8 +105,7 @@ alias figa='echo Che schifo la figa. Meglio GNU/Linux'
 alias backup='sudo ~/Coding/Bash/Random_Script/backUp/mountHDD.sh'
 alias megapush='~/Coding/Bash/Random_Script/gitPush.sh'
 alias megapull='~/Coding/Bash/Random_Script/gitPull.sh'
-alias calc='~/Coding/C/Other/calc/xCalc'
-alias mktemplate='~/Coding/Bash/Random_Script/mkTemplate.sh'
+alias mktemplate='/home/riky/Documents/Git/ErreKappa1/MakeTemplate/mkTemplate.sh'
 
 ## System
 alias lightup='backlight_control +10.4'
@@ -115,4 +114,3 @@ alias lightdown='backlight_control -10.4'
 alias volumeup='pamixer -d 2'
 alias volumedown='pamixer -i 2'
 alias volumetoggle='pamixer -t' 
-

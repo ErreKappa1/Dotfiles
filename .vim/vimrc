@@ -9,16 +9,26 @@ set noexpandtab
 set colorcolumn=120
 set autoindent
 set smartindent
+set autoread
+set listchars=tab:▸\ ,trail:▫
 set incsearch
 set hlsearch
+set ignorecase
+set smartcase
+set history=200
+set showcmd
 highlight ColorColumn ctermbg=lightgray
 set mouse=a
+set hidden
 
 "Set runtime path and vimrc path
 let $RTP=split(&runtimepath, ',')[0]
 let $RC="$HOME/.vim/vimrc"
-	"Also set the current project path as default
-	set path =.,**
+"Also set the current project path as default
+set path =.,**
+
+"Set other variables
+let $COLORS="/usr/share/vim/vim82/syntax/hitest.vim"
 
 "GUI Settings
 if has('gui_running')
@@ -27,12 +37,11 @@ if has('gui_running')
 	map <C-Tab> gt
 	map <C-S-Tab> gT
 else
-	source ~/.vim/statusline.vim
+	source ~/.vim/plugins/statusline.vim
 endif
 
-"Project settings (Mostly based on C projects)
-
-"Addedd packages
+"Added packages
+"added
 packadd termdebug
 
 "Bindings
@@ -41,17 +50,31 @@ nnoremap zo o<esc>
 nnoremap zO O<esc>
 nmap z<down> zok
 nmap z<up> zOj
+nnoremap <left> :bprev<cr>
+nnoremap <right> :bnext<cr>
+nnoremap <space>h :bprev<cr>
+nnoremap <space>l :bnext<cr>
+nnoremap <space>s :s/
+nnoremap <space>r :redraw!<cr>
+
 
 		"F keys
-nnoremap <F1> :make<cr>
-nnoremap <F4> :! ./gmake.sh<cr>
-nnoremap <F5> :! clear ; ./x*<cr>
-nnoremap <F9> :mksession! Vim/current.vim<cr>
-nnoremap <F10> :source Vim/current.vim<cr>
-nnoremap <F11> :! ~/Coding/Bash/Random_Script/vimPull.sh<cr>
-nnoremap <F12> :! ~/Coding/Bash/Random_Script/vimPush.sh<cr>
+map <F1> :wa<cr> :!clear <cr> :make<cr>
+map <F3> [I:let nr = input("Which one: ")<Bar>exe "normal " . nr ."[\t"<CR>
+map <F4> :wa<cr> :!clear ; make<cr>
+map <F5> :! clear ; ./x*<cr>
+map <F6> :cprevious<cr>
+map <F7> :cnext<cr>
+map <F8> :Termdebug<cr>
+map <F9> :mksession! Vim/current.vim<cr>
+map <F10> :source Vim/current.vim<cr>
+map <F11> :! git pull<cr>
+map <F12> :!  git add .; git commit -m "Auto push, minor changes"; git push<cr>
 	"Insert mode
+imap <F6> <ESC>:cprevious<cr>a
+imap <F7> <ESC>:cnext<cr>a
 	"Visual mode
+xnoremap <silent> P p:call setreg('"', getreg('0'), getregtype('0'))<cr>
 	"Selcet	mode
 	"CmdLin	mode
 	"PendOp mode
