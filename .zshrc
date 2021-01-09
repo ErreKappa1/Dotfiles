@@ -94,23 +94,19 @@ export ARCHFLAGS="-arch x86_64"
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
-## Personal aliases
-alias help='bash -c help'
-alias la='ls -A'
-alias w3md='w3m www.duckduckgo.com'
-alias term='xfce4-terminal &> /dev/null'
-alias please='sudo'
-alias vlc='cvlc'
-alias figa='echo Che schifo la figa. Meglio GNU/Linux'
-alias backup='sudo ~/Coding/Bash/Random_Script/backUp/mountHDD.sh'
-alias megapush='~/Coding/Bash/Random_Script/gitPush.sh'
-alias megapull='~/Coding/Bash/Random_Script/gitPull.sh'
-alias mktemplate='/home/riky/Documents/Git/ErreKappa1/MakeTemplate/mkTemplate.sh'
+# Alias definitions.
+# You may want to put all your additions into a separate file like
+# ~/.aliases, instead of adding them here directly.
+# See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-## System
-alias lightup='backlight_control +10.4'
-alias lightdown='backlight_control -10.4'
+if [ -f ~/.aliases ]; then
+  . ~/.aliases
+fi
 
-alias volumeup='pamixer -d 2'
-alias volumedown='pamixer -i 2'
-alias volumetoggle='pamixer -t' 
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+alias ll='ls -l --color=auto'
+alias la='ls -A --color=auto'
+alias ls='ls --color=auto'
+alias l='ls -la --color=auto'
