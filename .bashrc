@@ -48,13 +48,13 @@ shopt -s checkwinsize
 #unset color_prompt force_color_prompt
 
 # If this is an xterm set the title to user@host:dir
-#case "$TERM" in
-#xterm*|rxvt*)
-#    PS1="\[\e]0;${arch_chroot:+($arch_chroot)}\u@\h: \w\a\]$PS1"
-#    ;;
-#*)
-#    ;;
-#esac
+case "$TERM" in
+xterm*|rxvt*)
+    PS1="\[\e]0;${arch_chroot:+($arch_chroot)}\u@\h: \w\a\]$PS1"
+    ;;
+*)
+    ;;
+esac
 
 #LS_COLORS='di=34:ln=35:ex=31'
 #export LS_COLORS
@@ -78,6 +78,9 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# set case insensitive completion
+bind set completion-ignore-case on
 
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'

@@ -1,3 +1,0 @@
-let current_compiler = 'go'
-CompilerSet makeprg=go\ bild\ ./...
-CompilerSet errorformat=%E%f:%l%c:%m
