@@ -3,4 +3,4 @@ then
 	. ~/.bashrc
 fi
 
-megapull
+echo Remember to pull
