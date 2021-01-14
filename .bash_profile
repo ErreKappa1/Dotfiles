@@ -3,4 +3,4 @@ then
 	. ~/.bashrc
 fi
 
-echo Remember to pull
+echo \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Remember to pull
