@@ -1,7 +1,7 @@
 ## Personal aliases
 alias help='bash -c help'
 alias w3md='w3m www.duckduckgo.com'
-alias term='xfce4-terminal &> /dev/null'
+alias term='xfce4-terminal & > /dev/null'
 alias please='sudo'
 alias vlc='cvlc'
 alias figa='echo Che schifo la figa. Meglio GNU/Linux'
