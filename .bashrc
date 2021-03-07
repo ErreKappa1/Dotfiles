@@ -1,8 +1,5 @@
 # If not running interactively, don't do anything
-#case $- in
-#    *i*) ;;
-#      *) return;;
-#esac
+[ -z "$PS1" ] && return
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
@@ -19,15 +16,18 @@ HISTFILESIZE=2000
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
 
-# set a fancy prompt (non-color, unless we know we "want" color)
-#case "$TERM" in
-#    xterm-color) color_prompt=yes;;
-#esac
+# make less more friendly for non-text input files, see lesspipe(1)
+[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+
+# set a fancy prompt (non-color, unless we know we "want" color)################
+case "$TERM" in
+    xterm-color) color_prompt=yes;;
+esac
 
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
 # should be on the output of commands, not on the prompt
-force_color_prompt=no
+force_color_prompt=yes
 
 if [ "$force_color_prompt" = yes ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
@@ -36,15 +36,32 @@ if [ "$force_color_prompt" = yes ]; then
         # a case would tend to support setf rather than setaf.)
         color_prompt=yes
     else
-        color_prompt=no
+        color_prompt=
     fi
 fi
 
+###############################################################################
+
+function cdd {
+ cd "$1"
+
+ path=$(echo "${PWD/${HOME}/}")
+
+ if [ $(echo "${path}" | tr -cd '/' | wc -c) -ge 4 ]
+ then
+  path=$(echo "${path}" | sed -e 's/^.*((\/[[:alnum:]\_]+){3})$/\.\.\.\1/')
+ fi
+
+ #PS1="coseh ${path}"
+}
+
+###############################################################################
+
 if [ "$color_prompt" = yes ]; then
-    PS1='${arch_chroot:+($arch_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+    PS1='${arch_chroot:+($arch_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\] \w\[\033[00m\] \$ '
+    #PS1='${arch_chroot:+($arch_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\] ~${path}\[\033[00m\] \$ '
 else
-#		PS1='${arch_chroot:+($arch_chroot)}\u@\h:\w\$ '
-    PS1="\[\e]0;${arch_chroot:+($arch_chroot)}\u@\h: \w\a\]$PS1"
+		PS1="\[\e]0;${arch_chroot:+($arch_chroot)}\u@\h: \w\a\]$PS1"
 fi
 unset color_prompt force_color_prompt
 
@@ -79,6 +96,10 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Add an "alert" alias for long running commands.  Use like so:
+#   sleep 10; alert
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
