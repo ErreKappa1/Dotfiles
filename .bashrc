@@ -40,27 +40,26 @@ if [ "$force_color_prompt" = yes ]; then
     fi
 fi
 
-###############################################################################
-
 function cdd {
+
  cd "$1"
 
  path=$(echo "${PWD/${HOME}/}")
 
  if [ $(echo "${path}" | tr -cd '/' | wc -c) -ge 4 ]
  then
-  path=$(echo "${path}" | sed -e 's/^.*((\/[[:alnum:]\_]+){3})$/\.\.\.\1/')
+  path=$(echo "${path}" | sed -E 's/^.*((\/[[:alnum:]\_]+){3})$/\/\.\.\.\1/')
  fi
 
- #PS1="coseh ${path}"
 }
 
-###############################################################################
-
 if [ "$color_prompt" = yes ]; then
-    PS1='${arch_chroot:+($arch_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\] \w\[\033[00m\] \$ '
-    #PS1='${arch_chroot:+($arch_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\] ~${path}\[\033[00m\] \$ '
+		#vanilla PS1
+    #PS1='${arch_chroot:+($arch_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\] \w\[\033[00m\] \$ '
+		#limited PS1
+    PS1='${arch_chroot:+($arch_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\] ~${path}\[\033[00m\] \$ '
 else
+		#black/white PS1
 		PS1="\[\e]0;${arch_chroot:+($arch_chroot)}\u@\h: \w\a\]$PS1"
 fi
 unset color_prompt force_color_prompt
@@ -101,6 +100,7 @@ fi
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
+alias cd='cdd'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
