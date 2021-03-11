@@ -55,9 +55,9 @@ function cdd {
 
 if [ "$color_prompt" = yes ]; then
 		#vanilla PS1
-    #PS1='${arch_chroot:+($arch_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\] \w\[\033[00m\] \$ '
+    PS1='${arch_chroot:+($arch_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\] \w\[\033[00m\] \$ '
 		#limited PS1
-    PS1='${arch_chroot:+($arch_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\] ~${path}\[\033[00m\] \$ '
+    #PS1='${arch_chroot:+($arch_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\] ~${path}\[\033[00m\] \$ '
 else
 		#black/white PS1
 		PS1="\[\e]0;${arch_chroot:+($arch_chroot)}\u@\h: \w\a\]$PS1"
