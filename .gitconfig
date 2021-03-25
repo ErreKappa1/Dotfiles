@@ -5,3 +5,5 @@
 	email = riccardo.oglietti@tutanota.com
 [credential]
 	helper = store
+[pull]
+	rebase = false
