@@ -54,7 +54,7 @@ function cdd {
 	then
 		path=$(echo "${path}" | sed -E 's/^.*((\/[[:alnum:]\_]+){3})$/\/\.\.\.\1/')
 	fi
-	if [[ $(echo `pwd` | cut -d '/' -f 3) == "riky" ]]
+	if [[ $(echo `pwd` | cut -d '/' -f 3) == $(echo `whoami`) ]]
 	then
 		path=~$path
 	fi
