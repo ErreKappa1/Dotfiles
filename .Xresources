@@ -1,0 +1,10 @@
+XTerm.vt100.reverseVideo: true
+XTerm.vt100.selectToClipboard: true
+XTerm.vt100.faceName: Hack:size=10:antialiasing=false
+XTerm.vt100.locale: true
+XTerm.vt100.metaSendsEscape: true
+XTerm.vt100.blink: true
+XTerm.vt100.translations: #override \n\
+    Ctrl <Key>M: maximize() \n\
+    Ctrl <Key>R: restore()
+XTerm.vt100.saveLines: 4096
