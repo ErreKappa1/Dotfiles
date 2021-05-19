@@ -9,6 +9,7 @@ alias backup='sudo ~/Coding/Bash/Random_Script/backUp/mountHDD.sh'
 alias megapush='~/Coding/Bash/Random_Script/gitPush.sh'
 alias megapull='~/Coding/Bash/Random_Script/gitPull.sh'
 alias mktemplate='/home/riky/Documents/Git/ErreKappa1/MakeTemplate/mkTemplate.sh'
+alias fetch='neofetch --ascii_colors 12 5'
 
 ## System
 alias lightup='backlight_control +10.4'
