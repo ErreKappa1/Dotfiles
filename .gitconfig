@@ -5,3 +5,5 @@
 	email = riccardo.oglietti@tutanota.com
 [pull]
 	rebase = false
+[core]
+	editor = vim
