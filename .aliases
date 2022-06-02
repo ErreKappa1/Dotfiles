@@ -10,6 +10,7 @@ alias megapull='~/Coding/Bash/Random_Script/gitPull.sh'
 alias mktemplate='/home/riky/Documents/Git/ErreKappa1/MakeTemplate/mkTemplate.sh'
 alias fetch='neofetch --ascii_colors 12 5'
 alias speedtest='~/Coding/Bash/Random_Script/speedTest.sh'
+alias lutris="sudo sh -c 'sysctl -w abi.vsyscall32=0' && lutris"
 
 ## System
 alias lightup='backlight_control +10.4'
