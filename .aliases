@@ -1,6 +1,7 @@
 ## Personal aliases
 alias help='bash -c help'
 alias w3md='w3m www.duckduckgo.com'
+alias surfd='surf -d -g -S -T www.duckduckgo.com'
 alias term='xfce4-terminal & > /dev/null'
 alias please='sudo'
 alias vlc='cvlc'
