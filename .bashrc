@@ -80,7 +80,6 @@ case "$TERM" in
 	*)
 		;;
 esac
-
 #LS_COLORS='di=34:ln=35:ex=31'
 #export LS_COLORS
 
