@@ -115,5 +115,6 @@ alias ll='ls -l --color=auto'
 alias la='ls -A --color=auto'
 alias ls='ls --color=auto'
 alias l='ls -la --color=auto'
+alias ip='ip -p -c'
 
 cd .
