@@ -111,10 +111,11 @@ alias cd='cdd'
 alias grep='grep --color'
 alias fgrep='fgrep --color'
 alias egrep='egrep --color'
-alias ll='ls -l --color'
+alias ll='ls -lh --color'
 alias la='ls -A --color'
 alias ls='ls --color'
 alias l='ls -la --color'
 alias ip='ip -p -c'
+bind 'set completion-ignore-case on'
 
 cd .
